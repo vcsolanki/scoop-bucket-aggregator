@@ -29,8 +29,8 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "vcsolanki@github.com"
+          git config --local user.name "Vishal Solanki"
           git add aggregated.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update aggregated JSON data"
           
