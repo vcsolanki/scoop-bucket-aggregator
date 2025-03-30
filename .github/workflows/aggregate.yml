@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *'  # Runs daily at midnight
   workflow_dispatch:  # Allows manual trigger
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   aggregate:
     runs-on: ubuntu-latest
@@ -24,18 +28,49 @@ jobs:
           
       - name: Run aggregation script
         run: python .github/scripts/aggregate_json.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Commit changes
         run: |
-          git config --local user.email "vcsolanki.vs@gmail.com"
-          git config --local user.name "Vishal Solanki"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add aggregated.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update aggregated JSON data"
           
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ github.token }}
           branch: ${{ github.ref }}
+          
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        
+      - name: Delete previous releases
+        uses: dev-drprasad/delete-older-releases@v0.2.0
+        with:
+          keep_latest: 0
+          delete_tags: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          tag_name: release-${{ steps.date.outputs.date }}
+          release_name: Release ${{ steps.date.outputs.date }}
+          draft: false
+          prerelease: false
+          
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./aggregated.json
+          asset_name: aggregated.json
+          asset_content_type: application/json
