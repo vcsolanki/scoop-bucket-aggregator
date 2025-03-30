@@ -8,6 +8,8 @@ from github import Github
 # List of repositories to fetch from, each with their target directory
 SOURCE_REPOS = [
     {"repo": "ScoopInstaller/Main", "dir": "bucket"},
+    {"repo": "ScoopInstaller/Extras", "dir": "bucket"},
+    {"repo": "ScoopInstaller/Java", "dir": "bucket"}
     # Add more repositories as needed:
     # {"repo": "owner/repo", "dir": "bucket_folder"},
     # {"repo": "another_owner/another_repo", "dir": "json_folder"},
