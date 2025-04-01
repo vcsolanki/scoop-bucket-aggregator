@@ -2135,14 +2135,14 @@
     }
   },
   "Main/aws": {
-    "version": "2.25.6",
+    "version": "2.25.7",
     "description": "Unified tool to manage AWS services",
     "homepage": "https://aws.amazon.com/cli/",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://awscli.amazonaws.com/AWSCLIV2-2.25.6.msi",
-        "hash": "035f170497770a0fb6f78e5f90078928681f0da2f9f406e0444e60b5dc598ff5"
+        "url": "https://awscli.amazonaws.com/AWSCLIV2-2.25.7.msi",
+        "hash": "633f96d979c9767cc0b784c3b2c9a069ae38d872fdfb2047295798890230d8be"
       }
     },
     "extract_dir": "Amazon\\AWSCLIV2",
@@ -2506,14 +2506,14 @@
     }
   },
   "Main/b3sum": {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "description": "Command line utility prints the BLAKE3 hashes of files or of standard input",
     "homepage": "https://github.com/BLAKE3-team/BLAKE3",
     "license": "CC0-1.0|Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/1.7.0/b3sum_windows_x64_bin.exe#/b3sum.exe",
-        "hash": "7894fa20da1af429b5b32a8ccde18c29c1dfeb1acf50a53df8a8e8b8e8ca7f19"
+        "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/1.8.0/b3sum_windows_x64_bin.exe#/b3sum.exe",
+        "hash": "bd9662526a9b30bf353d83f6d447e295d3c78918deb8318cf52f527caca173ad"
       }
     },
     "bin": "b3sum.exe",
@@ -3906,7 +3906,7 @@
     }
   },
   "Main/bun": {
-    "version": "1.2.7",
+    "version": "1.2.8",
     "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.",
     "homepage": "https://bun.sh/",
     "license": "MIT",
@@ -3916,12 +3916,12 @@
     "architecture": {
       "64bit": {
         "url": [
-          "https://github.com/oven-sh/bun/releases/download/bun-v1.2.7/bun-windows-x64.zip",
-          "https://github.com/oven-sh/bun/releases/download/bun-v1.2.7/bun-windows-x64-baseline.zip"
+          "https://github.com/oven-sh/bun/releases/download/bun-v1.2.8/bun-windows-x64.zip",
+          "https://github.com/oven-sh/bun/releases/download/bun-v1.2.8/bun-windows-x64-baseline.zip"
         ],
         "hash": [
-          "f8596731041e804131096f4b4fa71236521bb9344fb1f2538d5f8e08e3c3e250",
-          "c9e15145372dceaa3d5fa79d12b3d47ecf63e144a2137d725b3d358094b0cf73"
+          "c24ff3cf8bc96fa6d63ba5371be65ba4cb6e2e6db01539ad1f8441b3cc1c4465",
+          "6278a4d7fb5b15a87b4dc8242b0e9102e0967f3e47157925152432e176370834"
         ]
       }
     },
@@ -6749,18 +6749,18 @@
     }
   },
   "Main/conan": {
-    "version": "2.14.0",
+    "version": "2.15.0",
     "description": "The open-source, decentralized C/C++ package manager",
     "homepage": "https://conan.io",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/conan-io/conan/releases/download/2.14.0/conan-2.14.0-windows-x86_64.zip",
-        "hash": "5eb23df782ee3fc5accded4b5ddac23feb308d8f588c2d9574bcb6f65a0ef19c"
+        "url": "https://github.com/conan-io/conan/releases/download/2.15.0/conan-2.15.0-windows-x86_64.zip",
+        "hash": "ebde3f487eddf66f50ee9593c8890baa8a621c07a7dc932c581227a4bd9485b5"
       },
       "32bit": {
-        "url": "https://github.com/conan-io/conan/releases/download/2.14.0/conan-2.14.0-windows-i686.zip",
-        "hash": "588d6e6e5df8098fbfb483823ff099ab332d8c6af233e7f9ebf2d5c46936ea4c"
+        "url": "https://github.com/conan-io/conan/releases/download/2.15.0/conan-2.15.0-windows-i686.zip",
+        "hash": "38ab42638aa3de8bc582c9233834765b6fd00bffcb592ceedf4e00da983520c1"
       }
     },
     "bin": "conan.exe",
@@ -7033,14 +7033,14 @@
     }
   },
   "Main/coredns": {
-    "version": "1.12.0",
+    "version": "1.12.1",
     "description": "A DNS server/forwarder, that chains plugins.",
     "homepage": "https://coredns.io",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/coredns/coredns/releases/download/v1.12.0/coredns_1.12.0_windows_amd64.tgz",
-        "hash": "a3c9cc025928192e27bd1cd2c7d9a59e6a666ed152fc5618f16255da9c3ac4a8"
+        "url": "https://github.com/coredns/coredns/releases/download/v1.12.1/coredns_1.12.1_windows_amd64.tgz",
+        "hash": "b5d1d90fe67722bcb310c3cb2159c3bd2d02a2b8f3a31635c783dcc7a520b0bc"
       }
     },
     "bin": "coredns.exe",
@@ -7921,14 +7921,14 @@
     }
   },
   "Main/danser-go": {
-    "version": "0.10.2",
+    "version": "0.11.0",
     "description": "Dancing visualizer of osu! standard maps and custom osu! client written in Go. Also a generator for osu! videos.",
     "homepage": "https://github.com/Wieku/danser-go",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Wieku/danser-go/releases/download/0.10.2/danser-0.10.2-win.zip",
-        "hash": "fafd44a8fbe77bf9272e1da18a563dd1ed0c7e5771a4091a86504f3d04a8108c"
+        "url": "https://github.com/Wieku/danser-go/releases/download/0.11.0/danser-0.11.0-win.zip",
+        "hash": "749b2e66e36c3e2217910923802f08de9bc1c0858fcb6ffae861a6787fb21eee"
       }
     },
     "bin": [
@@ -10938,20 +10938,20 @@
     }
   },
   "Main/exiftool": {
-    "version": "13.25",
+    "version": "13.26",
     "description": "A command-line application for reading, writing and editing meta information in a wide variety of files.",
     "homepage": "https://exiftool.org",
     "license": "GPL-1.0-or-later|Artistic-1.0-Perl",
     "architecture": {
       "64bit": {
-        "url": "https://exiftool.org/exiftool-13.25_64.zip",
-        "hash": "7ba98f089d6979baad4605b29f184de3653d7f80b83a8469587dfd1cdfda4dbb",
-        "extract_dir": "exiftool-13.25_64"
+        "url": "https://exiftool.org/exiftool-13.26_64.zip",
+        "hash": "d67ccd335586dbbcf68270d22054256bb98c04de3edf335316556cf995b912cf",
+        "extract_dir": "exiftool-13.26_64"
       },
       "32bit": {
-        "url": "https://exiftool.org/exiftool-13.25_32.zip",
-        "hash": "41037ee4c0e24a3a4e97993d806f5e6137cc9dd63f352bc26435af1e65488b5e",
-        "extract_dir": "exiftool-13.25_32"
+        "url": "https://exiftool.org/exiftool-13.26_32.zip",
+        "hash": "e3008aa3cb17ce6cf6681fc96950ceccdee6b43a57a87907afd1af1e4e297852",
+        "extract_dir": "exiftool-13.26_32"
       }
     },
     "pre_install": "Copy-Item \"$dir\\exiftool(-k).exe\" \"$dir\\exiftool.exe\"",
@@ -11785,18 +11785,18 @@
     "notes": "For Flux v1, please install 'versions/fluxctl' instead."
   },
   "Main/flyctl": {
-    "version": "0.3.94",
+    "version": "0.3.95",
     "description": "Command line deployment/management client for fly.io services",
     "homepage": "https://github.com/superfly/flyctl",
     "license": " Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/superfly/flyctl/releases/download/v0.3.94/flyctl_0.3.94_Windows_x86_64.zip",
-        "hash": "68389ada174ceb49d0899b7b874993a138c78794cbb376a89c52a272d9f79b1d"
+        "url": "https://github.com/superfly/flyctl/releases/download/v0.3.95/flyctl_0.3.95_Windows_x86_64.zip",
+        "hash": "7431e676323ce93ee9a43ba6bb38db7eb263cfd62aea21bccf5a34f089bd716b"
       },
       "arm64": {
-        "url": "https://github.com/superfly/flyctl/releases/download/v0.3.94/flyctl_0.3.94_Windows_arm64.zip",
-        "hash": "17b5cb0fc044518bff61c49714c19f19bc3c56caeb7d2cd5bcb39e703b9acf90"
+        "url": "https://github.com/superfly/flyctl/releases/download/v0.3.95/flyctl_0.3.95_Windows_arm64.zip",
+        "hash": "54e3297acc2657bc0887c4c65654eed83dcf5d4e9618c124e80b90c96455df6f"
       }
     },
     "bin": [
@@ -12809,20 +12809,20 @@
     }
   },
   "Main/geth": {
-    "version": "1.15.6",
+    "version": "1.15.7",
     "description": "Official Go implementation of the Ethereum protocol",
     "homepage": "https://geth.ethereum.org",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://gethstore.blob.core.windows.net/builds/geth-alltools-windows-amd64-1.15.6-19d2b4c8.zip",
-        "hash": "md5:c37152c06b7300a3ab522c141cf838f4",
-        "extract_dir": "geth-alltools-windows-amd64-1.15.6-19d2b4c8"
+        "url": "https://gethstore.blob.core.windows.net/builds/geth-alltools-windows-amd64-1.15.7-82fc77a8.zip",
+        "hash": "md5:8aaa5bd5fa2899840a38e6e2a4df29e6",
+        "extract_dir": "geth-alltools-windows-amd64-1.15.7-82fc77a8"
       },
       "32bit": {
-        "url": "https://gethstore.blob.core.windows.net/builds/geth-alltools-windows-386-1.15.6-19d2b4c8.zip",
-        "hash": "md5:e60d8d5726539ef42d92d0f910a09ec4",
-        "extract_dir": "geth-alltools-windows-386-1.15.6-19d2b4c8"
+        "url": "https://gethstore.blob.core.windows.net/builds/geth-alltools-windows-386-1.15.7-82fc77a8.zip",
+        "hash": "md5:91261af40895d64e4818ccae655382ea",
+        "extract_dir": "geth-alltools-windows-386-1.15.7-82fc77a8"
       }
     },
     "bin": [
@@ -18754,7 +18754,7 @@
     }
   },
   "Main/jdtls": {
-    "version": "1.47.0-202503282015",
+    "version": "1.47.0-202503311844",
     "description": "Java language server",
     "homepage": "https://projects.eclipse.org/projects/eclipse.jdt.ls",
     "license": "EPL-2.0",
@@ -18762,8 +18762,8 @@
       "JDK": "java/openjdk",
       "Python": "python"
     },
-    "url": "https://download.eclipse.org/jdtls/snapshots/jdt-language-server-1.47.0-202503282015.tar.gz",
-    "hash": "3cce70f9fafbc7ead38c036705233a9a04b1dccfd9131c167173ac440be07efe",
+    "url": "https://download.eclipse.org/jdtls/snapshots/jdt-language-server-1.47.0-202503311844.tar.gz",
+    "hash": "344bc3ab8ecfe73312a63776a41c1c2d806d742abdbb126eb60a33d9d06cd312",
     "installer": {
       "script": "shim (Get-Command 'python.exe').Source $global jdtls \"$dir\\bin\\jdtls\""
     },
@@ -19567,15 +19567,15 @@
     }
   },
   "Main/k6": {
-    "version": "0.57.0",
+    "version": "0.58.0",
     "description": "Load and performance regression testing tool for cloud native backend infrastructure",
     "homepage": "https://k6.io",
     "license": "AGPL-3.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/grafana/k6/releases/download/v0.57.0/k6-v0.57.0-windows-amd64.zip",
-        "hash": "18bfe5a9c443088f912b5cfded713fb85e2865477a768adbdab0c3cdcd39790d",
-        "extract_dir": "k6-v0.57.0-windows-amd64"
+        "url": "https://github.com/grafana/k6/releases/download/v0.58.0/k6-v0.58.0-windows-amd64.zip",
+        "hash": "09de68f65db6ad12f495c6ab6a2bd13a0de66bc41add7be52bec77c014e2295d",
+        "extract_dir": "k6-v0.58.0-windows-amd64"
       }
     },
     "bin": "k6.exe",
@@ -21173,22 +21173,22 @@
     }
   },
   "Main/lefthook": {
-    "version": "1.11.5",
+    "version": "1.11.6",
     "description": "Fast and powerful Git hooks manager for any type of projects",
     "homepage": "https://github.com/evilmartians/lefthook",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/evilmartians/lefthook/releases/download/v1.11.5/lefthook_1.11.5_Windows_x86_64.gz",
-        "hash": "d27995ad8158b30dbcfca21e311dafb315d9340c1e93776b9d23525e00c63a27"
+        "url": "https://github.com/evilmartians/lefthook/releases/download/v1.11.6/lefthook_1.11.6_Windows_x86_64.gz",
+        "hash": "6ee67fbe3fbf2ba5c76f9502d2dac0c33564ea47eea4d7dd2160ecd50be8f96f"
       },
       "32bit": {
-        "url": "https://github.com/evilmartians/lefthook/releases/download/v1.11.5/lefthook_1.11.5_Windows_i386.gz",
-        "hash": "70852614d413a12855f7e87011b48ea0d400a3d9f7f48055f018dd5954792b89"
+        "url": "https://github.com/evilmartians/lefthook/releases/download/v1.11.6/lefthook_1.11.6_Windows_i386.gz",
+        "hash": "adb17ad4eeb3d29ba2c06d55229b0e96ecc0724aaddad9aca60a430a96b1b6af"
       },
       "arm64": {
-        "url": "https://github.com/evilmartians/lefthook/releases/download/v1.11.5/lefthook_1.11.5_Windows_arm64.gz",
-        "hash": "588bb6d85dedf11111584ceec19ceb931611d3234437006a3549cedfb8a1b132"
+        "url": "https://github.com/evilmartians/lefthook/releases/download/v1.11.6/lefthook_1.11.6_Windows_arm64.gz",
+        "hash": "38ef8443c7b76d6527d9d301abddb02175cfbdea430be0517fd32b34d32d81f7"
       }
     },
     "bin": "lefthook.exe",
@@ -23016,14 +23016,14 @@
     }
   },
   "Main/mdbook": {
-    "version": "0.4.47",
+    "version": "0.4.48",
     "description": "Create a book from markdown files.",
     "homepage": "https://github.com/rust-lang/mdBook",
     "license": "MPL-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/rust-lang/mdBook/releases/download/v0.4.47/mdbook-v0.4.47-x86_64-pc-windows-msvc.zip",
-        "hash": "e582371711a510cf9854046c202b891a4e8931177994359d466c909fd72eff3d"
+        "url": "https://github.com/rust-lang/mdBook/releases/download/v0.4.48/mdbook-v0.4.48-x86_64-pc-windows-msvc.zip",
+        "hash": "4cf46efda130de406619d7480983afdb2dd6e2e91e33100d6c75aac6940bc772"
       }
     },
     "bin": "mdbook.exe",
@@ -23061,14 +23061,14 @@
     }
   },
   "Main/mdq": {
-    "version": "0.4.1",
+    "version": "0.5.0",
     "description": "Like jq but for Markdown.",
     "homepage": "https://github.com/yshavit/mdq",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/yshavit/mdq/releases/download/v0.4.1/mdq-windows.zip",
-        "hash": "4f198a719d68e9460b474d6e60b605438832d8072174f5261c8c13927dd1ab2d"
+        "url": "https://github.com/yshavit/mdq/releases/download/v0.5.0/mdq-windows.zip",
+        "hash": "10b925c654bba46acdb5e665adaf85860d7921078fdd509d19238805733959b0"
       }
     },
     "bin": "mdq.exe",
@@ -23346,18 +23346,18 @@
     }
   },
   "Main/mercurial": {
-    "version": "6.3.1",
+    "version": "7.0",
     "description": "Fast, lightweight, distributed source control management system designed for easy and efficient handling of very large distributed projects.",
     "homepage": "https://www.mercurial-scm.org/",
     "license": "GPL-2.0-only",
     "architecture": {
       "64bit": {
-        "url": "https://www.mercurial-scm.org/release/windows/Mercurial-6.3.1-x64.exe",
-        "hash": "be8bbadc156ad7f3bc46d7787d1eb681231cbe34c04c473becc2f9a69d2a09ee"
+        "url": "https://www.mercurial-scm.org/release/windows/Mercurial-7.0-x64.exe",
+        "hash": "b48b7906b984dd925ba8102e0c18d419222fe4d857d6859e6508d88a86efb6e7"
       },
       "32bit": {
-        "url": "https://www.mercurial-scm.org/release/windows/Mercurial-6.3.1-x86.exe",
-        "hash": "e2bec8a6b9bbe97c80fc16994920d25503cd8fcd53191f087f99d30fb1e354fc"
+        "url": "https://www.mercurial-scm.org/release/windows/Mercurial-7.0-x86.exe",
+        "hash": "f4e222e232548b085981b3540df2e7d9812d759c2b96159204bbb354afd4f3a3"
       }
     },
     "innosetup": true,
@@ -27390,7 +27390,7 @@
     }
   },
   "Main/oh-my-posh": {
-    "version": "25.8.0",
+    "version": "25.10.1",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": "MIT",
@@ -27398,32 +27398,32 @@
     "architecture": {
       "64bit": {
         "url": [
-          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/themes.zip",
-          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/posh-windows-amd64.exe#/oh-my-posh.exe"
+          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.10.1/themes.zip",
+          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.10.1/posh-windows-amd64.exe#/oh-my-posh.exe"
         ],
         "hash": [
-          "0e8842550e519589d5af0f1584b3bd1bf3fcc2eb00689ed38b65f9fb51383a22",
-          "eef57550a4834804161ff858c48ffedecd118bbe4f89dcea2d008cc684789cfa"
+          "dae504632c6e8950579fdc15d53c204833391a93fc2695dd4e7de525e0cf5524",
+          "7a084c99fdd69149ccb9cd806ba4b8e09bb31c74b8f289508660b8257158e774"
         ]
       },
       "32bit": {
         "url": [
-          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/themes.zip",
-          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/posh-windows-386.exe#/oh-my-posh.exe"
+          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.10.1/themes.zip",
+          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.10.1/posh-windows-386.exe#/oh-my-posh.exe"
         ],
         "hash": [
-          "0e8842550e519589d5af0f1584b3bd1bf3fcc2eb00689ed38b65f9fb51383a22",
-          "70c5e1a9e2af265ca9e9f19fff6075196a35b2c25efb3f6f4297a4928b6e2248"
+          "dae504632c6e8950579fdc15d53c204833391a93fc2695dd4e7de525e0cf5524",
+          "b4fc13ddae8336a8a48cb443ae37c05f7edeaf6d3b9294280ac4e6b12f5a2153"
         ]
       },
       "arm64": {
         "url": [
-          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/themes.zip",
-          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.8.0/posh-windows-arm64.exe#/oh-my-posh.exe"
+          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.10.1/themes.zip",
+          "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v25.10.1/posh-windows-arm64.exe#/oh-my-posh.exe"
         ],
         "hash": [
-          "0e8842550e519589d5af0f1584b3bd1bf3fcc2eb00689ed38b65f9fb51383a22",
-          "f45eb8b49b0f67ad44408380c749a67a7e456e970213afed1338d8a805c8b572"
+          "dae504632c6e8950579fdc15d53c204833391a93fc2695dd4e7de525e0cf5524",
+          "ebec14e715844b60840839085a635dc25199b75fddc74776abe43c063886a9fc"
         ]
       }
     },
@@ -27796,7 +27796,7 @@
     }
   },
   "Main/openresty": {
-    "version": "1.27.1.1",
+    "version": "1.27.1.2",
     "description": "Dynamic web platform based on NGINX and LuaJIT.",
     "homepage": "https://openresty.org",
     "license": "BSD-2-Clause",
@@ -27810,14 +27810,14 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://openresty.org/download/openresty-1.27.1.1-win64.zip",
-        "hash": "655399594d66c3209cb650c19f87779719d63a2af520e2a93e094fedaef22947",
-        "extract_dir": "openresty-1.27.1.1-win64"
+        "url": "https://openresty.org/download/openresty-1.27.1.2-win64.zip",
+        "hash": "a110cebf633899faa10d3dacc9effd1a98c5fb82e347ec1ea8092300320df86b",
+        "extract_dir": "openresty-1.27.1.2-win64"
       },
       "32bit": {
-        "url": "https://openresty.org/download/openresty-1.27.1.1-win32.zip",
-        "hash": "913f743c5814cddbaaffb2f690275cd1b45f3640ab0e672926d2d461f6532fff",
-        "extract_dir": "openresty-1.27.1.1-win32"
+        "url": "https://openresty.org/download/openresty-1.27.1.2-win32.zip",
+        "hash": "3fa716b0d8add292977a44a8813f446366a0f219b9ed27f41e31b8da5a48ed89",
+        "extract_dir": "openresty-1.27.1.2-win32"
       }
     },
     "bin": [
@@ -32060,7 +32060,7 @@
     }
   },
   "Extras/010editor": {
-    "version": "15.0.1",
+    "version": "15.0.2",
     "description": "Professional text and hex editor with Binary Templates technology.",
     "homepage": "https://www.sweetscape.com/010editor/",
     "license": {
@@ -32070,13 +32070,13 @@
     "notes": "This is a free 30-day trial version. Please buy a copy of it for furthur evaluation.",
     "architecture": {
       "64bit": {
-        "url": "https://download.sweetscape.com/010EditorWin64Portable15.0.1.zip",
-        "hash": "1f356d56df171b0946c80ebca9bf2edf6902e4ca045e50598fa070ff952a2d3a",
+        "url": "https://download.sweetscape.com/010EditorWin64Portable15.0.2.zip",
+        "hash": "d9a0d099266a6bedfb81ee25002b0c990d43e666278f0c14c737a89f40dda49d",
         "extract_dir": "010EditorWin64Portable"
       },
       "32bit": {
-        "url": "https://download.sweetscape.com/010EditorWin32Portable15.0.1.zip",
-        "hash": "f5851d9ae9f67bc683f4359d824c06d5f49938f9767349ae15a864531661ec14",
+        "url": "https://download.sweetscape.com/010EditorWin32Portable15.0.2.zip",
+        "hash": "bb1c37f09a80c38765737f8d8cb7c76052accd439d2f23bba676aeaa42c3db24",
         "extract_dir": "010EditorWin32Portable"
       }
     },
@@ -32701,7 +32701,7 @@
     }
   },
   "Extras/advancedrenamer": {
-    "version": "4.10",
+    "version": "4.11",
     "description": "Batch file renaming utility for Windows",
     "homepage": "https://www.advancedrenamer.com",
     "license": {
@@ -32710,8 +32710,8 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://www.advancedrenamer.com/down/win/advanced_renamer_portable_4_10.zip",
-        "hash": "8516303ad9da80ddc3a0655ab8e716d1eddddafb8c81822642250c3312ae3afd"
+        "url": "https://www.advancedrenamer.com/down/win/advanced_renamer_portable_4_11.zip",
+        "hash": "14589fbcff730455d3c4700e93108e3799e55c56a618f0ef40b4fec0e53710be"
       }
     },
     "bin": "arenc.exe",
@@ -39599,23 +39599,23 @@
     }
   },
   "Extras/carapace-bin": {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "description": "Multi-shell multi-command argument completer.",
     "homepage": "https://carapace.sh/",
     "license": "MIT",
     "notes": "Register the completers manually: https://carapace-sh.github.io/carapace-bin/setup.html",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/rsteube/carapace-bin/releases/download/v1.2.1/carapace-bin_1.2.1_windows_amd64.zip",
-        "hash": "75497cecf06e70a329caa99a694296ff6eb83f6d7751337397254859d9ace2ab"
+        "url": "https://github.com/rsteube/carapace-bin/releases/download/v1.3.0/carapace-bin_1.3.0_windows_amd64.zip",
+        "hash": "90a45db0c755850e5e36ba83985a00d305538e7c909edd741f289964df2f55f2"
       },
       "32bit": {
-        "url": "https://github.com/rsteube/carapace-bin/releases/download/v1.2.1/carapace-bin_1.2.1_windows_386.zip",
-        "hash": "de6ca1140484700f82220115751dac185dd4b891e9e89ad344619207a799767e"
+        "url": "https://github.com/rsteube/carapace-bin/releases/download/v1.3.0/carapace-bin_1.3.0_windows_386.zip",
+        "hash": "145ef67fdcafad9a795fcf770a36ac63450499d5c5fa5c1a31f01458fd4c7100"
       },
       "arm64": {
-        "url": "https://github.com/rsteube/carapace-bin/releases/download/v1.2.1/carapace-bin_1.2.1_windows_arm64.zip",
-        "hash": "599754909164cb7143187d22c717136a1cf05807fc963e174b93f828f899706a"
+        "url": "https://github.com/rsteube/carapace-bin/releases/download/v1.3.0/carapace-bin_1.3.0_windows_arm64.zip",
+        "hash": "518dd9c85d33f2e87d2e1a7ff7414152385d54a9ad9d0aec2b35119ce314fdf6"
       }
     },
     "bin": "carapace.exe",
@@ -40651,7 +40651,7 @@
     }
   },
   "Extras/chipmunk": {
-    "version": "3.16.4",
+    "version": "3.16.5",
     "description": "Fast logfile viewer with support for huge logfiles (>10 GB)",
     "homepage": "https://github.com/esrlabs/chipmunk",
     "license": "Apache-2.0",
@@ -40660,8 +40660,8 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://github.com/esrlabs/chipmunk/releases/download/3.16.4/chipmunk@3.16.4-win64-portable.tgz",
-        "hash": "babef93cab270c2e39942aa306bb5361924defddc1f9da4366f7d2ed44882a7c"
+        "url": "https://github.com/esrlabs/chipmunk/releases/download/3.16.5/chipmunk@3.16.5-win64-portable.tgz",
+        "hash": "0326b55d8d4a8d8096d359b3291e7a399f28963000a53bd539478921e2def827"
       }
     },
     "shortcuts": [
@@ -40910,15 +40910,15 @@
     }
   },
   "Extras/cinny": {
-    "version": "4.5.1",
+    "version": "4.6.0",
     "homepage": "https://cinny.in/",
     "description": "A simple, elegant and secure Matrix client protected by e2ee with the power of open source.",
     "license": "MIT",
     "notes": "Settings are stored in the ~\\AppData\\Local\\in.cinny.app directory.",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/cinnyapp/cinny-desktop/releases/download/v4.5.1/Cinny_desktop-x86_64.msi",
-        "hash": "db51f2f119383dc0412ae2e062f60fedf72316f8748a352b6cd35a2aef3bc5ce"
+        "url": "https://github.com/cinnyapp/cinny-desktop/releases/download/v4.6.0/Cinny_desktop-x86_64.msi",
+        "hash": "d6dd66c5eff72331812d4c5fb7455f2106a737980bfacf5fbf7ee53d4ad823eb"
       }
     },
     "extract_dir": "PFiles\\Cinny",
@@ -41673,12 +41673,12 @@
     }
   },
   "Extras/codeblocks-mingw": {
-    "version": "20.03",
+    "version": "25.03",
     "description": "Free open-source C/C++/Fortran IDE (includes additional GCC/G++ compiler and GDB debugger)",
     "homepage": "http://www.codeblocks.org",
     "license": "GPL-3.0-only",
-    "url": "https://downloads.sourceforge.net/project/codeblocks/Binaries/20.03/Windows/codeblocks-20.03mingw-nosetup.zip",
-    "hash": "sha1:99aa2e436a6f633254cea661027bbe159b490bd3",
+    "url": "https://downloads.sourceforge.net/project/codeblocks/Binaries/25.03/Windows/codeblocks-25.03mingw-nosetup.zip",
+    "hash": "sha1:dc44b22526f45863169d5094d8505f575c846ed4",
     "bin": "codeblocks.exe",
     "shortcuts": [
       [
@@ -41695,7 +41695,7 @@
     }
   },
   "Extras/codeblocks": {
-    "version": "20.03",
+    "version": "25.03",
     "description": "Free open-source C/C++/Fortran IDE (standalone version)",
     "homepage": "http://www.codeblocks.org",
     "license": "GPL-3.0-only",
@@ -41703,8 +41703,8 @@
       "This is the standalone version of the Code::Blocks IDE (does not include compilers/debuggers)",
       "Check 'codeblocks-mingw' for Code::Blocks with integrated compilers/debuggers"
     ],
-    "url": "https://downloads.sourceforge.net/project/codeblocks/Binaries/20.03/Windows/codeblocks-20.03-nosetup.zip",
-    "hash": "sha1:db30374a22773a0ebf0f4d93cc8e28c7c89117dd",
+    "url": "https://downloads.sourceforge.net/project/codeblocks/Binaries/25.03/Windows/codeblocks-25.03-nosetup.zip",
+    "hash": "sha1:585d134859243606d31ec67f991aae07eaa54757",
     "bin": "codeblocks.exe",
     "shortcuts": [
       [
@@ -41876,18 +41876,18 @@
     }
   },
   "Extras/commandbox": {
-    "version": "6.0.0",
+    "version": "6.2.0",
     "description": "A standalone, native tool for Windows, Mac, and Linux that will provide you with a Command Line Interface (CLI) for developer productivity, tool interaction, package management, embedded CFML server, application scaffolding, and some sweet ASCII art",
     "homepage": "https://www.ortussolutions.com/products/commandbox",
     "license": "LGPL-3.0-or-later",
     "architecture": {
       "64bit": {
-        "url": "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.0.0/commandbox-jre-win64-6.0.0.zip",
-        "hash": "54132b288266b9a496e7138787c7c8aae2cf2ff09600d4e065874242d5e72b71"
+        "url": "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.2.0/commandbox-jre-win64-6.2.0.zip",
+        "hash": "2aa0cb33c3d5b063f72debf3ed5db355ab87eaa7fc4a9c170c50b70632aaa10d"
       },
       "32bit": {
-        "url": "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.0.0/commandbox-jre-win32-6.0.0.zip",
-        "hash": "2215c88533c4d618e59abbe0ae53a12a76c46d1917b2b65e50014a828fa6bad2"
+        "url": "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.2.0/commandbox-jre-win32-6.2.0.zip",
+        "hash": "a00486a3766ca5e68761b3ea29fe12b1af525c653b4c596d4506eb2582bfb45f"
       }
     },
     "bin": "box.exe",
@@ -50037,12 +50037,12 @@
     }
   },
   "Extras/fiddler": {
-    "version": "5.0.20251.1171",
+    "version": "5.0.20253.3311",
     "description": "The free web debugging proxy for any browser, system or platform.",
     "homepage": "https://www.telerik.com/fiddler",
     "license": "Unknown",
-    "url": "https://downloads.getfiddler.com/fiddler-classic/FiddlerSetup.5.0.20251.1171-latest.exe#/dl.7z",
-    "hash": "1212b60ddcecc5496c30e0ab5a128052099c65b87547deca70e0ef0d77478b94",
+    "url": "https://downloads.getfiddler.com/fiddler-classic/FiddlerSetup.5.0.20253.3311-latest.exe#/dl.7z",
+    "hash": "d43cebee2f9783e16267d2db2362a56714cb19943ae192c498c3f48924df6265",
     "pre_install": [
       "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\FiddlerSetup.exe\" \"$dir\" -Removal",
       "Remove-Item \"$dir\\`$*\" -Recurse",
@@ -54277,7 +54277,7 @@
     }
   },
   "Extras/git-tower": {
-    "version": "8.3.499",
+    "version": "9.0.514",
     "homepage": "https://www.git-tower.com",
     "description": "An easy to use GUI client for Git with powerful features.",
     "license": {
@@ -54287,8 +54287,8 @@
     "suggest": {
       ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
     },
-    "url": "https://www.git-tower.com/apps/tower3-win/499-40883531/Tower-8.3.499.exe#/dl.7z",
-    "hash": "sha1:e7ebca2b5efa76f7a98b90657031237a0e976d9f",
+    "url": "https://www.git-tower.com/apps/tower3-win/514-d979a82b/Tower-9.0.514.exe#/dl.7z",
+    "hash": "sha1:69eefced527a770223063c5f2939a6b6ace2e4a5",
     "extract_dir": "lib\\native",
     "post_install": "Remove-Item \"$dir\\lib\" -Force -Recurse",
     "bin": "Tower.exe",
@@ -54479,7 +54479,7 @@
     }
   },
   "Extras/gitkraken": {
-    "version": "10.8.1",
+    "version": "11.0.0",
     "description": "A Git client which helps you track and manage changes to your code.",
     "homepage": "https://www.gitkraken.com/",
     "license": {
@@ -54492,8 +54492,8 @@
     ],
     "architecture": {
       "64bit": {
-        "url": "https://release.gitkraken.com/windows/gitkraken-10.8.1-full.nupkg",
-        "hash": "sha1:61289983d68a5e36be031dbb2bf5cf5d7eb0b38b"
+        "url": "https://release.gitkraken.com/windows/gitkraken-11.0.0-full.nupkg",
+        "hash": "sha1:528e25d0b86276e69e42b3ac9a037dd1b2fca418"
       }
     },
     "extract_dir": "lib\\net45",
@@ -60153,12 +60153,12 @@
     }
   },
   "Extras/jackett": {
-    "version": "0.22.1709",
+    "version": "0.22.1712",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/Jackett/Jackett",
     "license": "GPL-2.0-or-later",
-    "url": "https://github.com/Jackett/Jackett/releases/download/v0.22.1709/Jackett.Binaries.Windows.zip",
-    "hash": "ebc1130c1df5ff54bc53896abf115b2a87c778fe556f07f979a90ce19f140bb0",
+    "url": "https://github.com/Jackett/Jackett/releases/download/v0.22.1712/Jackett.Binaries.Windows.zip",
+    "hash": "9b27e5255bb0e9bdfcf33833d5c6c879efe1b75c76c1b02fb9da72e071b39ffa",
     "extract_dir": "Jackett",
     "pre_uninstall": [
       "'JacketTray', 'JacketConsole', 'JacketService' | ForEach-Object {",
@@ -61425,7 +61425,7 @@
     }
   },
   "Extras/kanata-cmd": {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "A software keyboard remapper, compiled with cmd support.",
     "homepage": "https://github.com/jtroo/kanata",
     "license": "LGPL-3.0-only",
@@ -61436,8 +61436,8 @@
     ],
     "architecture": {
       "64bit": {
-        "url": "https://github.com/jtroo/kanata/releases/download/v1.8.0/kanata_cmd_allowed.exe#/kanata-cmd.exe",
-        "hash": "7bfbd1f846c8fae3df535b09c6a8cbebd2ca63003fb6546327fff39ee751e532"
+        "url": "https://github.com/jtroo/kanata/releases/download/v1.8.1/kanata_cmd_allowed.exe#/kanata-cmd.exe",
+        "hash": "f2fdbdc6cc901a810be9f41998d1f298a2f202153eb7fe5f6a60362f5ca92297"
       }
     },
     "bin": "kanata-cmd.exe",
@@ -61451,15 +61451,15 @@
     }
   },
   "Extras/kanata": {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "A software keyboard remapper.",
     "homepage": "https://github.com/jtroo/kanata",
     "license": "LGPL-3.0-only",
     "notes": "Configuration Guide: https://github.com/jtroo/kanata/blob/main/docs/config.adoc",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/jtroo/kanata/releases/download/v1.8.0/kanata.exe",
-        "hash": "e279508bfce6471b5fd62c8848fce7fd9785b8d2d40c1cd6c08152ee2d17161d"
+        "url": "https://github.com/jtroo/kanata/releases/download/v1.8.1/kanata.exe",
+        "hash": "347352299b8d5fc307bcb1106c4b1f1c8e419de5dc986ab9acabb489b300fcd6"
       }
     },
     "bin": "kanata.exe",
@@ -63462,22 +63462,22 @@
     }
   },
   "Extras/kubevpn": {
-    "version": "2.4.3",
+    "version": "2.5.0",
     "description": "KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network.",
     "homepage": "https://www.kubevpn.dev/",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.4.3/kubevpn_v2.4.3_windows_amd64.zip",
-        "hash": "1ab85c7c11faac580d6b4286c1334ac695cdce29dbab62520e7743e029b4d7fb"
+        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.5.0/kubevpn_v2.5.0_windows_amd64.zip",
+        "hash": "24122308ceeac125e3c8c5c109662bbf278378b279051bb8ebc180f715f87a1a"
       },
       "32bit": {
-        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.4.3/kubevpn_v2.4.3_windows_386.zip",
-        "hash": "7ec0c4e5c20cd17281aa55a4dfa6dc7f58e7f147c1e86e1ea98a2c238840238a"
+        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.5.0/kubevpn_v2.5.0_windows_386.zip",
+        "hash": "8ad1e514bc78a6e3e9e132076b8d928400d857c15c3cd7d6f816cbfe754ba364"
       },
       "arm64": {
-        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.4.3/kubevpn_v2.4.3_windows_arm64.zip",
-        "hash": "c7e07c9ba62d8e0dfdf85c389e2a5668c9c3401875090495d5c5e650b9e52f87"
+        "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.5.0/kubevpn_v2.5.0_windows_arm64.zip",
+        "hash": "65a645dcc9e264ced63844788c667d27cf8642059190cf0f4142326e32dd8a96"
       }
     },
     "extract_dir": "bin",
@@ -65061,7 +65061,7 @@
     }
   },
   "Extras/linqpad": {
-    "version": "8.7.4",
+    "version": "8.8.9",
     "description": "The .NET programmer\u2019s playground",
     "homepage": "https://www.linqpad.net",
     "license": {
@@ -65071,8 +65071,8 @@
     "suggest": {
       ".Net SDK": "dotnet-sdk"
     },
-    "url": "https://linqpad.azureedge.net/public/LINQPad8.zip?cache=8.7.4.5387995",
-    "hash": "e09897541d1a3f753b7fb2fc9cb0446df6f820e9ff3e5d7b3cfd5b097306e8b0",
+    "url": "https://linqpad.azureedge.net/public/LINQPad8.zip?cache=8.8.9.3934575",
+    "hash": "7ce459b7109a985d2ca6c8d0895c8f443c08160198885f1af8468970a76b5127",
     "architecture": {
       "64bit": {
         "bin": [
