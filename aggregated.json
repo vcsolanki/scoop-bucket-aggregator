@@ -1075,18 +1075,18 @@
     }
   },
   "Main/aqua": {
-    "version": "2.47.0",
+    "version": "2.48.0",
     "description": "Declarative CLI version manager written in Go",
     "homepage": "https://aquaproj.github.io/",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/aquaproj/aqua/releases/download/v2.47.0/aqua_windows_amd64.zip",
-        "hash": "c7c5bb69844339af380ba2cb774d1e21530547d8aa19021bb5fad9dd589b1313"
+        "url": "https://github.com/aquaproj/aqua/releases/download/v2.48.0/aqua_windows_amd64.zip",
+        "hash": "f8384dca52a311f2afb880b821b68b2a3ecfe93ae9a65388ebab096dd76547ea"
       },
       "arm64": {
-        "url": "https://github.com/aquaproj/aqua/releases/download/v2.47.0/aqua_windows_amd64.zip",
-        "hash": "c7c5bb69844339af380ba2cb774d1e21530547d8aa19021bb5fad9dd589b1313"
+        "url": "https://github.com/aquaproj/aqua/releases/download/v2.48.0/aqua_windows_amd64.zip",
+        "hash": "f8384dca52a311f2afb880b821b68b2a3ecfe93ae9a65388ebab096dd76547ea"
       }
     },
     "bin": "aqua.exe",
@@ -2032,14 +2032,14 @@
     }
   },
   "Main/aws-iam-authenticator": {
-    "version": "0.6.30",
+    "version": "0.6.31",
     "description": "A tool to use AWS IAM credentials to authenticate to a Kubernetes cluster",
     "homepage": "https://github.com/kubernetes-sigs/aws-iam-authenticator",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.6.30/aws-iam-authenticator_0.6.30_windows_amd64.exe#/aws-iam-authenticator.exe",
-        "hash": "f572178798a53c879454049c3ae488ab96d3dd354bd6ef1a89d4d9156e7e6a99"
+        "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.6.31/aws-iam-authenticator_0.6.31_windows_amd64.exe#/aws-iam-authenticator.exe",
+        "hash": "0a1aa391025cdfcf2c997a555f81e88367314d019650bdcff9b11bbbf9ac0d96"
       }
     },
     "bin": "aws-iam-authenticator.exe",
@@ -2135,14 +2135,14 @@
     }
   },
   "Main/aws": {
-    "version": "2.25.10",
+    "version": "2.25.11",
     "description": "Unified tool to manage AWS services",
     "homepage": "https://aws.amazon.com/cli/",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://awscli.amazonaws.com/AWSCLIV2-2.25.10.msi",
-        "hash": "9c4acab8e717c9eb7e693dd3a4ef09f5572489e80aeb811234f5225126f19b2d"
+        "url": "https://awscli.amazonaws.com/AWSCLIV2-2.25.11.msi",
+        "hash": "cda27eb1a4b74ba8c45e9dfa858e9944d17efb107233a863000038124d2a7679"
       }
     },
     "extract_dir": "Amazon\\AWSCLIV2",
@@ -6711,7 +6711,7 @@
     }
   },
   "Main/composer": {
-    "version": "2.8.7",
+    "version": "2.8.8",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "license": "MIT",
@@ -6722,8 +6722,8 @@
         "php-nts"
       ]
     },
-    "url": "https://getcomposer.org/download/2.8.7/composer.phar",
-    "hash": "2528507840901565fe6cecd19c7e9f8983b8d91b5eb4bab1599b14254401e675",
+    "url": "https://getcomposer.org/download/2.8.8/composer.phar",
+    "hash": "957263e284b9f7a13d7f475dc65f3614d151b0c4dcc7e8761f7e7f749447fb68",
     "pre_install": [
       "@(",
       "    'if ($args.length -eq 1 -and ($args -eq \"selfupdate\" -or $args -eq \"self-update\")) { & scoop update composer }'",
@@ -7733,7 +7733,7 @@
     }
   },
   "Main/cygwin": {
-    "version": "2.932",
+    "version": "2.933",
     "description": "A large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Windows",
     "homepage": "https://cygwin.com/",
     "license": {
@@ -7895,14 +7895,14 @@
     }
   },
   "Main/dagger": {
-    "version": "0.18.1",
+    "version": "0.18.2",
     "description": "A portable devkit for CI/CD pipelines",
     "homepage": "https://dagger.io/",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/dagger/dagger/releases/download/v0.18.1/dagger_v0.18.1_windows_amd64.zip",
-        "hash": "343eda4b37a22ef6bd57a286b0e95e2cf2b44ce85a754961e60a43687b48721b"
+        "url": "https://github.com/dagger/dagger/releases/download/v0.18.2/dagger_v0.18.2_windows_amd64.zip",
+        "hash": "a48de3577caa4e591045e74381a6a01524b658c95a0306fcfd4fe8796ded7d57"
       }
     },
     "bin": "dagger.exe",
@@ -8331,14 +8331,14 @@
     }
   },
   "Main/deno": {
-    "version": "2.2.6",
+    "version": "2.2.7",
     "description": "A secure runtime for JavaScript and TypeScript",
     "homepage": "https://deno.land",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/denoland/deno/releases/download/v2.2.6/deno-x86_64-pc-windows-msvc.zip",
-        "hash": "e0229e239b4b3ffd356a7731dcab9e277c7750669c27515c4c22cd21b1c0108d"
+        "url": "https://github.com/denoland/deno/releases/download/v2.2.7/deno-x86_64-pc-windows-msvc.zip",
+        "hash": "87b247ecdc89aaef1b38216d5055ca73d719e1eb6ee0f92d0a6181604fdffc50"
       }
     },
     "bin": "deno.exe",
@@ -10244,7 +10244,7 @@
     }
   },
   "Main/edgedriver": {
-    "version": "134.0.3124.93",
+    "version": "135.0.3179.54",
     "description": "Close the loop on your developer cycle by automating testing of your website in Microsoft Edge (Chromium).",
     "homepage": "https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver",
     "license": {
@@ -10254,16 +10254,16 @@
     "notes": "For legacy (EdgeHTML) version, see 'versions/edgedriver-legacy'.",
     "architecture": {
       "64bit": {
-        "url": "https://msedgedriver.azureedge.net/134.0.3124.93/edgedriver_win64.zip",
-        "hash": "06df7f1d46365eaa570f1771c5000a337e58522f3e1fa0255e05a4791c212ff7"
+        "url": "https://msedgedriver.azureedge.net/135.0.3179.54/edgedriver_win64.zip",
+        "hash": "d355a1b10ed9f2c7a04fa628f62a6cad6a4a973b834e98109bd0d2a8964953ce"
       },
       "32bit": {
-        "url": "https://msedgedriver.azureedge.net/134.0.3124.93/edgedriver_win32.zip",
-        "hash": "98a6a17cb66ad16178f834a25038fa7ebcd3099d443fab96ca51a9e96a7ecdab"
+        "url": "https://msedgedriver.azureedge.net/135.0.3179.54/edgedriver_win32.zip",
+        "hash": "200ff19dd1dd04d3f3400bed545fa9133e38efbc52b57557626987663723a63c"
       },
       "arm64": {
-        "url": "https://msedgedriver.azureedge.net/134.0.3124.93/edgedriver_arm64.zip",
-        "hash": "df7f1dc6155599f61996bfcac950f55bc5ee0e65f87759250530ecfbea7b7f03"
+        "url": "https://msedgedriver.azureedge.net/135.0.3179.54/edgedriver_arm64.zip",
+        "hash": "c7b8bd917915807b47369f015063f9140f1a2983dcd20bd1c02f3c26380a6a47"
       }
     },
     "bin": "msedgedriver.exe",
@@ -10582,7 +10582,7 @@
     }
   },
   "Main/erlang": {
-    "version": "27.3.1",
+    "version": "27.3.2",
     "description": "A programming language used to build massively scalable soft real-time systems with requirements on high availability.",
     "homepage": "https://www.erlang.org",
     "license": "Apache-2.0",
@@ -10591,12 +10591,12 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://github.com/erlang/otp/releases/download/OTP-27.3.1/otp_win64_27.3.1.exe#/dl.7z",
-        "hash": "9c4c888b8c2d4b85e1d6f9b9f5e3f964821869144c4dbf920aa97eb39a3d2546"
+        "url": "https://github.com/erlang/otp/releases/download/OTP-27.3.2/otp_win64_27.3.2.exe#/dl.7z",
+        "hash": "b089635c2aedc5aac21e4ddd22b57bb390c368efdd665807ae145e8c98b097bd"
       },
       "32bit": {
-        "url": "https://github.com/erlang/otp/releases/download/OTP-27.3.1/otp_win32_27.3.1.exe#/dl.7z",
-        "hash": "a82a1448d5eed5c0e1643d95b503a94160f8aac4a54c58afd1512ef55fe95360"
+        "url": "https://github.com/erlang/otp/releases/download/OTP-27.3.2/otp_win32_27.3.2.exe#/dl.7z",
+        "hash": "747118890498271e5975daa3d5e4d2fb2c41aa36201e7f8dbc615513e0cfaa5e"
       }
     },
     "installer": {
@@ -12307,7 +12307,7 @@
     "bin": "gameboosthd.exe"
   },
   "Main/garnet": {
-    "version": "1.0.61",
+    "version": "1.0.62",
     "description": "A high-performance cache-store from Microsoft Research.",
     "homepage": "https://microsoft.github.io/garnet",
     "license": "MIT",
@@ -12325,12 +12325,12 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://github.com/microsoft/garnet/releases/download/v1.0.61/win-x64-based-readytorun.zip",
-        "hash": "b1bca1665260e18b63f3651eb81957b79c7d84651a6ce0cef1064acd6b72b675"
+        "url": "https://github.com/microsoft/garnet/releases/download/v1.0.62/win-x64-based-readytorun.zip",
+        "hash": "f78cddbe36451013bc6ceca0c79caf68f377c5cee01fba9c64d91f4a692028fc"
       },
       "arm64": {
-        "url": "https://github.com/microsoft/garnet/releases/download/v1.0.61/win-arm64-based-readytorun.zip",
-        "hash": "aaec482297d35233535f489e8102f9d1f47d9213ed700513e2780c570af8ff74"
+        "url": "https://github.com/microsoft/garnet/releases/download/v1.0.62/win-arm64-based-readytorun.zip",
+        "hash": "97ab5a8029f98cf222d5915414483bc2679d2f24f1759215acc16857f8b7ad8b"
       }
     },
     "extract_dir": "net9.0",
@@ -14840,18 +14840,18 @@
     }
   },
   "Main/go-size-analyzer": {
-    "version": "1.7.7",
+    "version": "1.7.8",
     "description": "A tool for analyzing the dependencies in compiled Golang binaries.",
     "homepage": "https://github.com/Zxilly/go-size-analyzer",
     "license": "AGPL-3.0-only",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.7.7/go-size-analyzer_windows_amd64.zip",
-        "hash": "710137ea914ab1ae7324b3be67395bd657981c1c78b7d0d363a1f9b8c38aa7f9"
+        "url": "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.7.8/go-size-analyzer_windows_amd64.zip",
+        "hash": "bdacf52b124af724ec60c60cb76bf5afb4da5ff3a9bb7e2f1951cb5b5d63648e"
       },
       "arm64": {
-        "url": "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.7.7/go-size-analyzer_windows_arm64.zip",
-        "hash": "c50d30b442a6568252ec06a9993cb820b6ac0e4540388e9b015383c13ea86283"
+        "url": "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.7.8/go-size-analyzer_windows_arm64.zip",
+        "hash": "c2b8a3cab56badf4d8feee884ea373ee5929de6ee7bfa27ef1ed7cd517153f53"
       }
     },
     "bin": "gsa.exe",
@@ -15347,18 +15347,18 @@
     }
   },
   "Main/gosec": {
-    "version": "2.22.2",
+    "version": "2.22.3",
     "description": "Inspects source code for security problems by scanning the Go AST.",
     "homepage": "https://github.com/securego/gosec",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/securego/gosec/releases/download/v2.22.2/gosec_2.22.2_windows_amd64.tar.gz",
-        "hash": "24d80c1382e0f3af589099e00e24a013faa9f4806a195e9061d3da02a6f6a914"
+        "url": "https://github.com/securego/gosec/releases/download/v2.22.3/gosec_2.22.3_windows_amd64.tar.gz",
+        "hash": "723f84c0c3d51185e58a877ee7bfed890afa676d125ae95fbc51d52372beb2ed"
       },
       "arm64": {
-        "url": "https://github.com/securego/gosec/releases/download/v2.22.2/gosec_2.22.2_windows_arm64.tar.gz",
-        "hash": "d71b4bfda426142b766be797b9876c308fa1404c1037cadaa75d727774df9d7c"
+        "url": "https://github.com/securego/gosec/releases/download/v2.22.3/gosec_2.22.3_windows_arm64.tar.gz",
+        "hash": "18d4cb836b3feedd206b83a1d7ef8fe19f9bec28e5195166acfc30f16838c913"
       }
     },
     "bin": "gosec.exe",
@@ -16632,19 +16632,19 @@
     }
   },
   "Main/harfbuzz": {
-    "version": "11.0.0",
+    "version": "11.0.1",
     "description": "Text shaping engine. Supports OpenType and Apple Advanced Typography.",
     "homepage": "https://harfbuzz.github.io/",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/harfbuzz/harfbuzz/releases/download/11.0.0/harfbuzz-win64-11.0.0.zip",
-        "hash": "72dc6ed89f673811ee1fd00bb89e0e213b3a95914e20e7de63ff11924ea75af0",
+        "url": "https://github.com/harfbuzz/harfbuzz/releases/download/11.0.1/harfbuzz-win64-11.0.1.zip",
+        "hash": "5715295b0ceb1172ee82a097aaf62e0282eff6044aaaf6a6b811a8432c69f575",
         "extract_dir": "harfbuzz-win64"
       },
       "32bit": {
-        "url": "https://github.com/harfbuzz/harfbuzz/releases/download/11.0.0/harfbuzz-win32-11.0.0.zip",
-        "hash": "c955a993ed0facbe5c50e4b387373e1ffc37b522d0ca72925b43fdda4e428d1d",
+        "url": "https://github.com/harfbuzz/harfbuzz/releases/download/11.0.1/harfbuzz-win32-11.0.1.zip",
+        "hash": "f4515eea3bcde6f242dc202b47ac9f0e010dabbb5316e938fce977387d73829e",
         "extract_dir": "harfbuzz-win32"
       }
     },
@@ -16669,19 +16669,19 @@
     }
   },
   "Main/harper": {
-    "version": "0.27.0",
+    "version": "0.28.0",
     "description": "The Grammar Checker for Developers",
     "homepage": "https://github.com/Automattic/harper",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
         "url": [
-          "https://github.com/Automattic/harper/releases/download/v0.27.0/harper-ls-x86_64-pc-windows-msvc.zip",
-          "https://github.com/Automattic/harper/releases/download/v0.27.0/harper-cli-x86_64-pc-windows-msvc.zip"
+          "https://github.com/Automattic/harper/releases/download/v0.28.0/harper-ls-x86_64-pc-windows-msvc.zip",
+          "https://github.com/Automattic/harper/releases/download/v0.28.0/harper-cli-x86_64-pc-windows-msvc.zip"
         ],
         "hash": [
-          "8acf2c4d9f166d757d8b2925d690fdd6f1df4cc065e5a9c249e83cd816ffaaaa",
-          "1ff69e6b9cb1f3e07d15c1a9f03bd66e81e002b15e5225f7721353ed6a9ac5bb"
+          "b9721ce362d99d631b163e7d061faa9b931ae14b2911195fed6cd8672fc17efa",
+          "08df3697a77e9783d52566035fdc56c935e30bab0ade37babd7723d7d4ceb928"
         ]
       }
     },
@@ -19998,18 +19998,18 @@
     }
   },
   "Main/kiota": {
-    "version": "1.24.3",
+    "version": "1.25.1",
     "description": "Kiota is a command line tool for generating an API client to call any OpenAPI described API you are interested in. The goal is to eliminate the need to take a dependency on a different API SDK for every API that you need to call. Kiota API clients provide a strongly typed experience with all the features you expect from a high quality API SDK, but without having to learn a new library for every HTTP API.",
     "homepage": "https://aka.ms/kiota/docs",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/microsoft/kiota/releases/download/v1.24.3/win-x64.zip",
-        "hash": "3d51c24918fac2677555d6712d109e50322ff90b67c16fc8ad797046d33f1c00"
+        "url": "https://github.com/microsoft/kiota/releases/download/v1.25.1/win-x64.zip",
+        "hash": "bdfa62a58c7b5f60014b55a1a859204cfb8209a817e3fc3a5aeaae5265244aa1"
       },
       "32bit": {
-        "url": "https://github.com/microsoft/kiota/releases/download/v1.24.3/win-x86.zip",
-        "hash": "7273c5ca7657eda005e614c81c9776f88476f9cb50e15abde9c3a4506bc12c5a"
+        "url": "https://github.com/microsoft/kiota/releases/download/v1.25.1/win-x86.zip",
+        "hash": "66ad00be967d89aa74297f73f09eab1e881faccf46a8abb850907cc3428b7d9b"
       }
     },
     "bin": "kiota.exe",
@@ -22269,14 +22269,14 @@
     }
   },
   "Main/luau": {
-    "version": "0.667",
+    "version": "0.668",
     "description": "A fast, small, safe, gradually typed embeddable scripting language derived from Lua",
     "homepage": "https://luau-lang.org/",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Roblox/luau/releases/download/0.667/luau-windows.zip",
-        "hash": "05a8aa9dbc551f2663438e4884851f8ec511cae8de7bc28a4305e04e8d0166ce"
+        "url": "https://github.com/Roblox/luau/releases/download/0.668/luau-windows.zip",
+        "hash": "af71a077017d47a3712bda2e946176904494c1867a101d4b6dc40efa2eeb65c9"
       }
     },
     "bin": [
@@ -25535,25 +25535,25 @@
     }
   },
   "Main/naiveproxy": {
-    "version": "134.0.6998.39-1",
+    "version": "135.0.7049.38-1",
     "description": "A proxy using Chrome's network stack to camouflage traffic with strong censorship resistence and low detectablility.",
     "homepage": "https://github.com/klzgrad/naiveproxy",
     "license": "BSD-3-Clause",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v134.0.6998.39-1/naiveproxy-v134.0.6998.39-1-win-x64.zip",
-        "hash": "d9d03f430fbc6589954cb28d0b488b99b9ea42fc0ab0ca1ae189938bc438a99f",
-        "extract_dir": "naiveproxy-v134.0.6998.39-1-win-x64"
+        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-1/naiveproxy-v135.0.7049.38-1-win-x64.zip",
+        "hash": "f31d3acd25a64e5579f35bd747cab37c6c16c5c91da964acf6e646478e0e32e3",
+        "extract_dir": "naiveproxy-v135.0.7049.38-1-win-x64"
       },
       "32bit": {
-        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v134.0.6998.39-1/naiveproxy-v134.0.6998.39-1-win-x86.zip",
-        "hash": "2a7f74b6bfe05d05379bcb58b20729e8bda3271c70e207ab5172e645bafa8ab4",
-        "extract_dir": "naiveproxy-v134.0.6998.39-1-win-x86"
+        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-1/naiveproxy-v135.0.7049.38-1-win-x86.zip",
+        "hash": "cbb16acf964f217b3085e6d7dfc4e4f578c5c0c68043674ac11fce6bb1f69edc",
+        "extract_dir": "naiveproxy-v135.0.7049.38-1-win-x86"
       },
       "arm64": {
-        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v134.0.6998.39-1/naiveproxy-v134.0.6998.39-1-win-arm64.zip",
-        "hash": "66504e222fa13112d0b26c6968fa21919ac456897a40c56f17f291e986b86fbe",
-        "extract_dir": "naiveproxy-v134.0.6998.39-1-win-arm64"
+        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-1/naiveproxy-v135.0.7049.38-1-win-arm64.zip",
+        "hash": "969dddada384f9d6c7e160480ed4441d2a5dbf16d4ac24b2437387171cae2892",
+        "extract_dir": "naiveproxy-v135.0.7049.38-1-win-arm64"
       }
     },
     "bin": "naive.exe",
@@ -27483,17 +27483,17 @@
     }
   },
   "Main/oidn": {
-    "version": "2.3.2",
+    "version": "2.3.3",
     "description": "Intel Open Image Denoise library",
     "homepage": "https://github.com/RenderKit/oidn",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/RenderKit/oidn/releases/download/v2.3.2/oidn-2.3.2.x64.windows.zip",
-        "hash": "c4f527b133d955fa5775af64f09e7a03a098f3aaef6b05b1702c1482c5d94fef"
+        "url": "https://github.com/RenderKit/oidn/releases/download/v2.3.3/oidn-2.3.3.x64.windows.zip",
+        "hash": "30e41f6fe648536ef5657b45bccd2b27c6caed6461c832bde4949b0f965be0e0"
       }
     },
-    "extract_dir": "oidn-2.3.2.x64.windows\\bin",
+    "extract_dir": "oidn-2.3.3.x64.windows\\bin",
     "bin": [
       "oidnBenchmark.exe",
       "oidnDenoise.exe",
@@ -30646,14 +30646,14 @@
     }
   },
   "Main/promtail": {
-    "version": "3.4.2",
+    "version": "3.4.3",
     "description": "Multi-tenant log aggregation system",
     "homepage": "https://grafana.com/oss/loki/",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/grafana/loki/releases/download/v3.4.2/promtail-windows-amd64.exe.zip",
-        "hash": "2938e13fefb3734f4d2da20cb9f5e762194cf78762d13a0f2d2e320f0d766948",
+        "url": "https://github.com/grafana/loki/releases/download/v3.4.3/promtail-windows-amd64.exe.zip",
+        "hash": "69c68d7f4798984b1e879231f38a345c635fe3394d25ada2d1e81c602517c0f7",
         "bin": [
           [
             "promtail-windows-amd64.exe",
@@ -39190,15 +39190,15 @@
     }
   },
   "Extras/calibre-normal": {
-    "version": "8.1.1",
+    "version": "8.2.1",
     "description": "Powerful and easy to use e-book manager",
     "homepage": "https://calibre-ebook.com",
     "license": "GPL-3.0-only",
     "notes": "Calibre drops support for 32-bit CPUs after v6.0.0, if you are running a 32-bit system, please install calibre-normal5 from Versions bucket.",
     "architecture": {
       "64bit": {
-        "url": "https://download.calibre-ebook.com/8.1.1/calibre-64bit-8.1.1.msi",
-        "hash": "sha512:11523b99ac0bb0092a0521f0764c8496b0fff926de34c512de197c5ee5c9af9ef9aacc3662b5bd6096d27659bd23fb41c1af31aac0ef02841f22fc1ac815297f",
+        "url": "https://download.calibre-ebook.com/8.2.1/calibre-64bit-8.2.1.msi",
+        "hash": "sha512:598cd9a3900a561cca18dd6776af0ef26c14d0d5c529e2811bb6199c3b40cbef6bca20948673f5469e171e6bec50937d9a4084436e8c92609076f8479130f64f",
         "extract_dir": "PFiles64\\Calibre2"
       }
     },
@@ -39257,14 +39257,14 @@
     }
   },
   "Extras/calibre": {
-    "version": "8.1.1",
+    "version": "8.2.1",
     "description": "Powerful and easy to use e-book manager",
     "homepage": "https://calibre-ebook.com",
     "license": "GPL-3.0-only",
     "architecture": {
       "64bit": {
-        "url": "https://download.calibre-ebook.com/8.1.1/calibre-portable-installer-8.1.1.exe",
-        "hash": "sha512:4562a6070628847fe99b7e01f9f772a6d3411ef4992b61515c42c024b0a1de890c06405f4b98af1950416b751045c3a86d68270fc9b3ce8c9d0c3cdb8b4d7405"
+        "url": "https://download.calibre-ebook.com/8.2.1/calibre-portable-installer-8.2.1.exe",
+        "hash": "sha512:66537c2c59cb703867790d9702d719d095b1d6a0aa799662a0cf6892f5577c12e50184d340c2c0364c30999a506617de59d4f355eba712b115f52b7a986e82dc"
       }
     },
     "installer": {
@@ -39404,18 +39404,18 @@
     ]
   },
   "Extras/camunda-modeler": {
-    "version": "5.33.1",
+    "version": "5.34.0",
     "description": "Made for developers, edit your BPMN process diagrams and DMN decision tables.",
     "homepage": "https://camunda.org/download/modeler/",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/camunda/camunda-modeler/releases/download/v5.33.1/camunda-modeler-5.33.1-win-x64.zip",
-        "hash": "364caf1d25e8769c585ab6c9b198de0f691b4e24b10a4ceaa26b305e25f517a2"
+        "url": "https://github.com/camunda/camunda-modeler/releases/download/v5.34.0/camunda-modeler-5.34.0-win-x64.zip",
+        "hash": "2599a13e31e3c98f44fd8be3cd47e01271f9b136f4a951bd4e47c72378aae264"
       },
       "32bit": {
-        "url": "https://github.com/camunda/camunda-modeler/releases/download/v5.33.1/camunda-modeler-5.33.1-win-ia32.zip",
-        "hash": "485196df1394c6a39bc3538160e47af7dfae028fa44b5f7024a7d7adfd5f33cd"
+        "url": "https://github.com/camunda/camunda-modeler/releases/download/v5.34.0/camunda-modeler-5.34.0-win-ia32.zip",
+        "hash": "51132faa7fba5c0c346c47947ef96b57cd667b61122aea670d7fa9e9fb9d7cde"
       }
     },
     "bin": "Camunda Modeler.exe",
@@ -42358,17 +42358,17 @@
     }
   },
   "Extras/copyq": {
-    "version": "9.1.0",
+    "version": "10.0.0",
     "description": "Clipboard manager",
     "homepage": "https://hluk.github.io/CopyQ/",
     "license": "GPL-3.0-or-later",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/hluk/CopyQ/releases/download/v9.1.0/copyq-9.1.0.zip",
-        "hash": "57d039b5e12f770c34b520e69bbe33bc495c0702e8d6f682ae39e7c9fc7da4f9"
+        "url": "https://github.com/hluk/CopyQ/releases/download/v10.0.0/copyq-10.0.0.zip",
+        "hash": "d28740089860b99b4cc4c6446d6b7943f63763906add1fb17578cc47440a42cc"
       }
     },
-    "extract_dir": "copyq-9.1.0",
+    "extract_dir": "copyq-10.0.0",
     "bin": "copyq.exe",
     "shortcuts": [
       [
@@ -42617,7 +42617,7 @@
     }
   },
   "Extras/cromite": {
-    "version": "134.0.6998.178",
+    "version": "135.0.7049.52",
     "description": "A Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy",
     "homepage": "https://www.cromite.org/",
     "license": {
@@ -42626,8 +42626,8 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://github.com/uazo/cromite/releases/download/v134.0.6998.178-cc1a82b970c067392d08c590c3820536f3ec259f/chrome-win.zip",
-        "hash": "0e15746647b9e3d127d4b01e8b675d2d970d3aeb6f62de1c39879303c7ca46c4"
+        "url": "https://github.com/uazo/cromite/releases/download/v135.0.7049.52-9609b54606287728228780ccd390a28c1f3a8bf0/chrome-win.zip",
+        "hash": "bdc5ba05d3b4be3723888ae1506ff97952b8e3be2cf027807d6feaf95ea749f2"
       }
     },
     "extract_dir": "chrome-win",
@@ -42770,7 +42770,7 @@
     }
   },
   "Extras/cryptomator": {
-    "version": "1.15.1",
+    "version": "1.15.2",
     "description": "Multi-platform transparent client-side encryption of files in the cloud",
     "homepage": "https://cryptomator.org",
     "license": "GPL-3.0-only",
@@ -42779,8 +42779,8 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://github.com/cryptomator/cryptomator/releases/download/1.15.1/Cryptomator-1.15.1-x64.msi",
-        "hash": "8e8af2420d7cd78f22ac11f3be52253d653075c294e603607b9c61a2bf95775e"
+        "url": "https://github.com/cryptomator/cryptomator/releases/download/1.15.2/Cryptomator-1.15.2-x64.msi",
+        "hash": "d97a3aa93b1a7eebbd1e0918e4a92a584c1adeae382baec98dccf2abfbfce45a"
       }
     },
     "extract_dir": "Cryptomator",
@@ -42961,18 +42961,18 @@
     }
   },
   "Extras/cudatext": {
-    "version": "1.222.5.0",
+    "version": "1.223.0.0",
     "description": "Text editor",
     "homepage": "http://uvviewsoft.com/cudatext/",
     "license": "MPL-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://sourceforge.net/projects/cudatext/files/release/1.222.5.0/cudatext-windows-amd64-1.222.5.0.zip",
-        "hash": "sha1:e35b9a6684c7b503a93a5d084d0c332592b50aea"
+        "url": "https://sourceforge.net/projects/cudatext/files/release/1.223.0.0/cudatext-windows-amd64-1.223.0.0.zip",
+        "hash": "sha1:15250c5bcc0cd359c8ba1b827d5543b835c66e7d"
       },
       "32bit": {
-        "url": "https://sourceforge.net/projects/cudatext/files/release/1.222.5.0/cudatext-windows-i386-1.222.5.0.zip",
-        "hash": "sha1:45044d45f46e00835fbd724404bfd956ef3d6aee"
+        "url": "https://sourceforge.net/projects/cudatext/files/release/1.223.0.0/cudatext-windows-i386-1.223.0.0.zip",
+        "hash": "sha1:c187a051b459b5dd61dc9b28067b0f907b7babc1"
       }
     },
     "extract_dir": "cudatext",
@@ -49521,7 +49521,7 @@
     }
   },
   "Extras/fancontrol": {
-    "version": "218",
+    "version": "219",
     "description": "A highly customizable fan controlling software for Windows",
     "homepage": "https://getfancontrol.com/",
     "license": "Freeware",
@@ -49530,8 +49530,8 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V218/FanControl_218_net_8_0.zip",
-        "hash": "4387ab04f8f6bc4e4b21307ef7eda79b2a6ce2422ec36848bcdea60d43aed053"
+        "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V219/FanControl_219_net_8_0.zip",
+        "hash": "d519fa5bee5a4b23c6df9ac9e6a1ee9aae1fe46dfcc067a8b72f097d6f0f1b5c"
       }
     },
     "shortcuts": [
@@ -51696,7 +51696,7 @@
     }
   },
   "Extras/foobar2000-encoders": {
-    "version": "2025-04-02",
+    "version": "2025-04-04",
     "description": "Natively supported free encoder binary for use with the Converter foobar2000 component",
     "homepage": "https://www.foobar2000.org/encoderpack",
     "license": {
@@ -51707,8 +51707,8 @@
       "Foobar2000": "extras/foobar2000"
     },
     "notes": "The binaries are conveniently installed into a subfolder of the foobar2000 installation folder. Current versions of foobar2000 will automatically recognize these encoders and no longer ask you for encoder binary location.",
-    "url": "https://www.foobar2000.org/files/Free_Encoder_Pack-2025-04-02.exe#/dl.7z",
-    "hash": "56d4c1df87ce0504ca1a04b7b0ec0821d5c84fe7c934d2a5a12651000ccff7be",
+    "url": "https://www.foobar2000.org/files/Free_Encoder_Pack-2025-04-04.exe#/dl.7z",
+    "hash": "16438060b9c5f9a1cdae5b7825c5b34950e9a970956c28c7a3e11464ca11bf35",
     "installer": {
       "script": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
@@ -51803,7 +51803,7 @@
     }
   },
   "Extras/fork": {
-    "version": "2.6.1",
+    "version": "2.7.0",
     "description": "A fast and friendly git client for Mac and Windows",
     "homepage": "https://git-fork.com/",
     "license": {
@@ -51814,8 +51814,8 @@
       "Add Fork as a context menu option by running:",
       "reg import \"$dir\\install-context.reg\""
     ],
-    "url": "https://cdn.fork.dev/update/win/Fork-2.6.1-full.nupkg",
-    "hash": "sha1:9d5a47de33786c2011db823c4e71cee477ddbb0c",
+    "url": "https://cdn.fork.dev/update/win/Fork-2.7.0-full.nupkg",
+    "hash": "sha1:8298c3a126caecf99f1ecf555c15a7513d6cf308",
     "extract_dir": "lib\\app",
     "post_install": [
       "Remove-Item \"$dir\\*\" -Include 'Fork_ExecutionStub.exe', 'PortableGit-*.7z', 'lib', '7z.*' -Recurse",
@@ -52445,14 +52445,14 @@
     }
   },
   "Extras/freedownloadmanager": {
-    "version": "6.26.1.6177",
+    "version": "6.26.2.6190",
     "description": "A powerful download manager",
     "homepage": "https://www.freedownloadmanager.org",
     "license": "Freeware",
     "architecture": {
       "64bit": {
         "url": "https://files2.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
-        "hash": "461732f10af171a82a2b5ed1452892c55ce49dd6e942f1fe937a3e2b1b872352"
+        "hash": "87d4df6b36352a3396504fe2a7d542a7844e22b82d25e0ff674d892d9c53afa2"
       },
       "32bit": {
         "url": "https://files2.freedownloadmanager.org/fdm6_qt5/fdm_x86_setup.exe",
@@ -60184,12 +60184,12 @@
     }
   },
   "Extras/jackett": {
-    "version": "0.22.1722",
+    "version": "0.22.1726",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/Jackett/Jackett",
     "license": "GPL-2.0-or-later",
-    "url": "https://github.com/Jackett/Jackett/releases/download/v0.22.1722/Jackett.Binaries.Windows.zip",
-    "hash": "960dd529e4192a05d90e4a7d92063d2712641e0b6ff4d956f4cd61ef1832ef18",
+    "url": "https://github.com/Jackett/Jackett/releases/download/v0.22.1726/Jackett.Binaries.Windows.zip",
+    "hash": "6855b60816a1250f1907e5149664cc679c0995de52c504162c2484e2fa682295",
     "extract_dir": "Jackett",
     "pre_uninstall": [
       "'JacketTray', 'JacketConsole', 'JacketService' | ForEach-Object {",
@@ -60715,7 +60715,7 @@
     ]
   },
   "Extras/jetbrains-hub": {
-    "version": "2025.1.68116",
+    "version": "2025.1.69895",
     "description": "YouTrack, TeamCity, and Upsource Connector by JetBrains.",
     "homepage": "https://www.jetbrains.com/hub/",
     "license": {
@@ -60723,9 +60723,9 @@
       "url": "https://www.jetbrains.com/legal/docs/hub/license"
     },
     "notes": "Hub can be started from anywhere using 'jetbrains-hub' command.",
-    "url": "https://download.jetbrains.com/hub/hub-2025.1.68116.zip",
-    "hash": "6d309e04c3c003b00b24bb478d615bc6716b85dc8b29a7efc401d367b417921a",
-    "extract_dir": "hub-2025.1.68116",
+    "url": "https://download.jetbrains.com/hub/hub-2025.1.69895.zip",
+    "hash": "d076491067d0749a128997cd832bfc4d4aaa165fc1e2dc6a685972e67a22e98a",
+    "extract_dir": "hub-2025.1.69895",
     "installer": {
       "script": [
         "$ver_path = \"$dir\\bin\"",
@@ -72683,15 +72683,15 @@
   "Java/semeru-lts-jdk": {
     "description": "The IBM Semeru Runtimes are free production-ready binaries built with the OpenJDK class libraries and the Eclipse OpenJ9 JVM",
     "homepage": "https://developer.ibm.com/languages/java/semeru-runtimes/",
-    "version": "21.0.6-7-0.49.0",
+    "version": "21.0.7-5-0.51.0-m2",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_21.0.6_7_openj9-0.49.0.zip",
-        "hash": "04eaa198e64efe909c916c75d668fff6ccfc30647c094ee67411df6e6cae2e17"
+        "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_x64_windows_21.0.7_5_openj9-0.51.0-m2.zip",
+        "hash": "7310d2614572226036b7011c4685fdf9a9508a73b0a529c84c7fdcf195c39937"
       }
     },
-    "extract_dir": "jdk-21.0.6+7",
+    "extract_dir": "jdk-21.0.7+5",
     "env_add_path": "bin",
     "env_set": {
       "JAVA_HOME": "$dir"
@@ -72717,15 +72717,15 @@
   "Java/semeru-lts-jre": {
     "description": "The IBM Semeru Runtimes are free production-ready binaries built with the OpenJDK class libraries and the Eclipse OpenJ9 JVM",
     "homepage": "https://developer.ibm.com/languages/java/semeru-runtimes/",
-    "version": "21.0.6-7-0.49.0",
+    "version": "21.0.7-5-0.51.0-m2",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jre_x64_windows_21.0.6_7_openj9-0.49.0.zip",
-        "hash": "71170bc1b3728b8c88b3a349358247969bf98303ac250719dd8dee78306b5ae4"
+        "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B5_openj9-0.51.0-m2/ibm-semeru-open-jre_x64_windows_21.0.7_5_openj9-0.51.0-m2.zip",
+        "hash": "754f133b71de04149520b0de465463e4e9f9f90ab19662ad4293b46386c7ede7"
       }
     },
-    "extract_dir": "jdk-21.0.6+7-jre",
+    "extract_dir": "jdk-21.0.7+5-jre",
     "env_add_path": "bin",
     "env_set": {
       "JAVA_HOME": "$dir"
@@ -72887,15 +72887,15 @@
   "Java/semeru17-jdk": {
     "description": "The IBM Semeru Runtimes are free production-ready binaries built with the OpenJDK class libraries and the Eclipse OpenJ9 JVM",
     "homepage": "https://developer.ibm.com/languages/java/semeru-runtimes/",
-    "version": "17.0.14-7-0.49.0",
+    "version": "17.0.15-5-0.51.0-m2",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_17.0.14_7_openj9-0.49.0.zip",
-        "hash": "901bdd1d8fc81d13faed4d250ae8c26210d8f682fcdbffee23bf42f7bf1516c3"
+        "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_x64_windows_17.0.15_5_openj9-0.51.0-m2.zip",
+        "hash": "fe75df54a531a340327f84bee03c887b57df4a0483cb347bce218c42156774e8"
       }
     },
-    "extract_dir": "jdk-17.0.14+7",
+    "extract_dir": "jdk-17.0.15+5",
     "env_add_path": "bin",
     "env_set": {
       "JAVA_HOME": "$dir"
@@ -72921,15 +72921,15 @@
   "Java/semeru17-jre": {
     "description": "The IBM Semeru Runtimes are free production-ready binaries built with the OpenJDK class libraries and the Eclipse OpenJ9 JVM",
     "homepage": "https://developer.ibm.com/languages/java/semeru-runtimes/",
-    "version": "17.0.14-7-0.49.0",
+    "version": "17.0.15-5-0.51.0-m2",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.14%2B7_openj9-0.49.0/ibm-semeru-open-jre_x64_windows_17.0.14_7_openj9-0.49.0.zip",
-        "hash": "5f73f5207eddf290cc3a3b17231614bf8e76dbbfae1805c02232ed9953d4a9c2"
+        "url": "https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.15%2B5_openj9-0.51.0-m2/ibm-semeru-open-jre_x64_windows_17.0.15_5_openj9-0.51.0-m2.zip",
+        "hash": "b71fcfe52563e294b27f0404a14fe8c170dccdb3b06210a0e75887c686cfd3b6"
       }
     },
-    "extract_dir": "jdk-17.0.14+7-jre",
+    "extract_dir": "jdk-17.0.15+5-jre",
     "env_add_path": "bin",
     "env_set": {
       "JAVA_HOME": "$dir"
@@ -73159,15 +73159,15 @@
   "Java/semeru21-jdk": {
     "description": "The IBM Semeru Runtimes are free production-ready binaries built with the OpenJDK class libraries and the Eclipse OpenJ9 JVM",
     "homepage": "https://developer.ibm.com/languages/java/semeru-runtimes/",
-    "version": "21.0.6-7-0.49.0",
+    "version": "21.0.7-5-0.51.0-m2",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jdk_x64_windows_21.0.6_7_openj9-0.49.0.zip",
-        "hash": "04eaa198e64efe909c916c75d668fff6ccfc30647c094ee67411df6e6cae2e17"
+        "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B5_openj9-0.51.0-m2/ibm-semeru-open-jdk_x64_windows_21.0.7_5_openj9-0.51.0-m2.zip",
+        "hash": "7310d2614572226036b7011c4685fdf9a9508a73b0a529c84c7fdcf195c39937"
       }
     },
-    "extract_dir": "jdk-21.0.6+7",
+    "extract_dir": "jdk-21.0.7+5",
     "env_add_path": "bin",
     "env_set": {
       "JAVA_HOME": "$dir"
@@ -73193,15 +73193,15 @@
   "Java/semeru21-jre": {
     "description": "The IBM Semeru Runtimes are free production-ready binaries built with the OpenJDK class libraries and the Eclipse OpenJ9 JVM",
     "homepage": "https://developer.ibm.com/languages/java/semeru-runtimes/",
-    "version": "21.0.6-7-0.49.0",
+    "version": "21.0.7-5-0.51.0-m2",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.6%2B7_openj9-0.49.0/ibm-semeru-open-jre_x64_windows_21.0.6_7_openj9-0.49.0.zip",
-        "hash": "71170bc1b3728b8c88b3a349358247969bf98303ac250719dd8dee78306b5ae4"
+        "url": "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.7%2B5_openj9-0.51.0-m2/ibm-semeru-open-jre_x64_windows_21.0.7_5_openj9-0.51.0-m2.zip",
+        "hash": "754f133b71de04149520b0de465463e4e9f9f90ab19662ad4293b46386c7ede7"
       }
     },
-    "extract_dir": "jdk-21.0.6+7-jre",
+    "extract_dir": "jdk-21.0.7+5-jre",
     "env_add_path": "bin",
     "env_set": {
       "JAVA_HOME": "$dir"
@@ -74854,7 +74854,7 @@
   "Java/temurin8-nightly-jdk": {
     "description": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
     "homepage": "https://adoptium.net",
-    "version": "8.0.452-7.0.202503292124",
+    "version": "8.0.452-7.0.202504032012",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
       "64bit": {
@@ -74906,7 +74906,7 @@
   "Java/temurin8-nightly-jre": {
     "description": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
     "homepage": "https://adoptium.net",
-    "version": "8.0.452-7.0.202503292124",
+    "version": "8.0.452-7.0.202504032012",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
       "64bit": {
