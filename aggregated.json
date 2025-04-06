@@ -1075,18 +1075,18 @@
     }
   },
   "Main/aqua": {
-    "version": "2.48.0",
+    "version": "2.48.1",
     "description": "Declarative CLI version manager written in Go",
     "homepage": "https://aquaproj.github.io/",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/aquaproj/aqua/releases/download/v2.48.0/aqua_windows_amd64.zip",
-        "hash": "f8384dca52a311f2afb880b821b68b2a3ecfe93ae9a65388ebab096dd76547ea"
+        "url": "https://github.com/aquaproj/aqua/releases/download/v2.48.1/aqua_windows_amd64.zip",
+        "hash": "bf53f4c71f3dd4b53281fd3d2393fdb10d20586de96255afc462555d585d88a6"
       },
       "arm64": {
-        "url": "https://github.com/aquaproj/aqua/releases/download/v2.48.0/aqua_windows_amd64.zip",
-        "hash": "f8384dca52a311f2afb880b821b68b2a3ecfe93ae9a65388ebab096dd76547ea"
+        "url": "https://github.com/aquaproj/aqua/releases/download/v2.48.1/aqua_windows_amd64.zip",
+        "hash": "bf53f4c71f3dd4b53281fd3d2393fdb10d20586de96255afc462555d585d88a6"
       }
     },
     "bin": "aqua.exe",
@@ -8331,14 +8331,14 @@
     }
   },
   "Main/deno": {
-    "version": "2.2.7",
+    "version": "2.2.8",
     "description": "A secure runtime for JavaScript and TypeScript",
     "homepage": "https://deno.land",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/denoland/deno/releases/download/v2.2.7/deno-x86_64-pc-windows-msvc.zip",
-        "hash": "87b247ecdc89aaef1b38216d5055ca73d719e1eb6ee0f92d0a6181604fdffc50"
+        "url": "https://github.com/denoland/deno/releases/download/v2.2.8/deno-x86_64-pc-windows-msvc.zip",
+        "hash": "b82afa1415ef2423099c426863a01cce7f5ac454d8a20c3f45b3a511f43f7e9b"
       }
     },
     "bin": "deno.exe",
@@ -13685,7 +13685,7 @@
     }
   },
   "Main/git-town": {
-    "version": "18.2.0",
+    "version": "18.3.0",
     "description": "Git plugin that adds Git commands that make collaborative software development more efficient and safe.",
     "homepage": "https://www.git-town.com",
     "license": "MIT",
@@ -13694,12 +13694,12 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://github.com/git-town/git-town/releases/download/v18.2.0/git-town_windows_intel_64.zip",
-        "hash": "ba9a230df0a8ed2ec6854d390217aa070f115f62d2b80554cd9289b2c3fd1cd2"
+        "url": "https://github.com/git-town/git-town/releases/download/v18.3.0/git-town_windows_intel_64.zip",
+        "hash": "fe2dc5d35fa1bf3993f70d535eb820f7992737d4ad3f64046683e4c760059d98"
       },
       "arm64": {
-        "url": "https://github.com/git-town/git-town/releases/download/v18.2.0/git-town_windows_arm_64.zip",
-        "hash": "e1077bf82aee58536fbf6ea70d0043cc00dc7f1a4a4694841578f08aed325600"
+        "url": "https://github.com/git-town/git-town/releases/download/v18.3.0/git-town_windows_arm_64.zip",
+        "hash": "2e08a393fb028797b424febcc2159ba1b391f9499004154af7415b00b3261923"
       }
     },
     "bin": "git-town.exe",
@@ -14840,18 +14840,18 @@
     }
   },
   "Main/go-size-analyzer": {
-    "version": "1.7.8",
+    "version": "1.7.9",
     "description": "A tool for analyzing the dependencies in compiled Golang binaries.",
     "homepage": "https://github.com/Zxilly/go-size-analyzer",
     "license": "AGPL-3.0-only",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.7.8/go-size-analyzer_windows_amd64.zip",
-        "hash": "bdacf52b124af724ec60c60cb76bf5afb4da5ff3a9bb7e2f1951cb5b5d63648e"
+        "url": "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.7.9/go-size-analyzer_windows_amd64.zip",
+        "hash": "00e01a246391bac04c839b6e4340b35316b1f6c77e9a581f3ba9b006b904547c"
       },
       "arm64": {
-        "url": "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.7.8/go-size-analyzer_windows_arm64.zip",
-        "hash": "c2b8a3cab56badf4d8feee884ea373ee5929de6ee7bfa27ef1ed7cd517153f53"
+        "url": "https://github.com/Zxilly/go-size-analyzer/releases/download/v1.7.9/go-size-analyzer_windows_arm64.zip",
+        "hash": "3fe9f9b37f259dc862e3119068b26f6b62e85bb6f6c3333d6845354b6852e048"
       }
     },
     "bin": "gsa.exe",
@@ -18967,14 +18967,14 @@
     }
   },
   "Main/jj": {
-    "version": "0.28.0",
+    "version": "0.28.1",
     "description": "Jujutsu is a Git-compatible DVCS that is both simple and powerful",
     "homepage": "https://github.com/martinvonz/jj",
     "license": "Apache-2.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/martinvonz/jj/releases/download/v0.28.0/jj-v0.28.0-x86_64-pc-windows-msvc.zip",
-        "hash": "ad1a7ae9b594addd8b40a88470a3ec2f207ed0e149aeaf75e98a5bfd1aff1c49"
+        "url": "https://github.com/martinvonz/jj/releases/download/v0.28.1/jj-v0.28.1-x86_64-pc-windows-msvc.zip",
+        "hash": "c7262d85e11b59cfaa0f6e814850be7c6223646f01706f3fcc7d66399a1afe84"
       }
     },
     "bin": "jj.exe",
@@ -22628,14 +22628,14 @@
     }
   },
   "Main/magic-wormhole-rs": {
-    "version": "0.7.5",
+    "version": "0.7.6",
     "description": "Securely transfer data between computers. Rust implementation of Magic Wormhole, with new features and enhancements",
     "homepage": "https://github.com/magic-wormhole/magic-wormhole.rs",
     "license": "EUPL-1.2",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/magic-wormhole/magic-wormhole.rs/releases/download/0.7.5/magic-wormhole-cli-x86_64-pc-windows-gnu.tgz",
-        "hash": "fda3fdc3e4f26e925a38987006646ec061b5b1fe055abbe2daf52aeb825d3757"
+        "url": "https://github.com/magic-wormhole/magic-wormhole.rs/releases/download/0.7.6/magic-wormhole-cli-x86_64-pc-windows-gnu.tgz",
+        "hash": "bfdcb919f516adb14b340add758d6f2ec04af0439d643f44ed9b827189caa1ca"
       }
     },
     "bin": "wormhole-rs.exe",
@@ -24443,20 +24443,20 @@
     }
   },
   "Main/monero-cli": {
-    "version": "0.18.3.4",
+    "version": "0.18.4.0",
     "description": "The secure, private, untraceable cryptocurrency (CLI)",
     "homepage": "https://getmonero.org/",
     "license": "BSD-3-Clause",
     "architecture": {
       "64bit": {
-        "url": "https://dlsrc.getmonero.org/cli/monero-win-x64-v0.18.3.4.zip",
-        "hash": "54a66db6c892b2a0999754841f4ca68511741b88ea3ab20c7cd504a027f465f5",
-        "extract_dir": "monero-x86_64-w64-mingw32-v0.18.3.4"
+        "url": "https://dlsrc.getmonero.org/cli/monero-win-x64-v0.18.4.0.zip",
+        "hash": "00151a96e96ef69eedf117c4900e6d0717ca074a61918cd94a55ed587544406b",
+        "extract_dir": "monero-x86_64-w64-mingw32-v0.18.4.0"
       },
       "32bit": {
-        "url": "https://dlsrc.getmonero.org/cli/monero-win-x86-v0.18.3.4.zip",
-        "hash": "1a9824742aa1587023c3bddea788c115940cfd49371c78a8dd62c40113132d01",
-        "extract_dir": "monero-i686-w64-mingw32-v0.18.3.4"
+        "url": "https://dlsrc.getmonero.org/cli/monero-win-x86-v0.18.4.0.zip",
+        "hash": "249a4247688c30ce95e8fb04ff656e97a4f8de83c31c58e7debb28dbcc2d2867",
+        "extract_dir": "monero-i686-w64-mingw32-v0.18.4.0"
       }
     },
     "bin": [
@@ -25535,25 +25535,25 @@
     }
   },
   "Main/naiveproxy": {
-    "version": "135.0.7049.38-1",
+    "version": "135.0.7049.38-2",
     "description": "A proxy using Chrome's network stack to camouflage traffic with strong censorship resistence and low detectablility.",
     "homepage": "https://github.com/klzgrad/naiveproxy",
     "license": "BSD-3-Clause",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-1/naiveproxy-v135.0.7049.38-1-win-x64.zip",
-        "hash": "f31d3acd25a64e5579f35bd747cab37c6c16c5c91da964acf6e646478e0e32e3",
-        "extract_dir": "naiveproxy-v135.0.7049.38-1-win-x64"
+        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-2/naiveproxy-v135.0.7049.38-2-win-x64.zip",
+        "hash": "94d2dc7c3848f0be18c0e31e20e80f1d261597d3ccc3f78034b6bcae37d93b2e",
+        "extract_dir": "naiveproxy-v135.0.7049.38-2-win-x64"
       },
       "32bit": {
-        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-1/naiveproxy-v135.0.7049.38-1-win-x86.zip",
-        "hash": "cbb16acf964f217b3085e6d7dfc4e4f578c5c0c68043674ac11fce6bb1f69edc",
-        "extract_dir": "naiveproxy-v135.0.7049.38-1-win-x86"
+        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-2/naiveproxy-v135.0.7049.38-2-win-x86.zip",
+        "hash": "d39b071a3c4816d417dbc7d82c00974c30c724818224c9c1c3c8b593fd9781d1",
+        "extract_dir": "naiveproxy-v135.0.7049.38-2-win-x86"
       },
       "arm64": {
-        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-1/naiveproxy-v135.0.7049.38-1-win-arm64.zip",
-        "hash": "969dddada384f9d6c7e160480ed4441d2a5dbf16d4ac24b2437387171cae2892",
-        "extract_dir": "naiveproxy-v135.0.7049.38-1-win-arm64"
+        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v135.0.7049.38-2/naiveproxy-v135.0.7049.38-2-win-arm64.zip",
+        "hash": "7c229e5a9eccab3e0ee3a733200c71a818e949d6a837ec5e3bec4272a1a4496c",
+        "extract_dir": "naiveproxy-v135.0.7049.38-2-win-arm64"
       }
     },
     "bin": "naive.exe",
@@ -25837,18 +25837,18 @@
     }
   },
   "Main/navidrome": {
-    "version": "0.55.1",
+    "version": "0.55.2",
     "description": "Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device. It's like your personal Spotify!",
     "homepage": "https://www.navidrome.org/",
     "license": "GPL-3.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/navidrome/navidrome/releases/download/v0.55.1/navidrome_0.55.1_windows_amd64.zip",
-        "hash": "4d921a3f6cc486eac39ad441c6e5320ecf2db28cb855fe09e7a01f0588ad5f92"
+        "url": "https://github.com/navidrome/navidrome/releases/download/v0.55.2/navidrome_0.55.2_windows_amd64.zip",
+        "hash": "3f23de705c534d83f5c5db94f0207ffc1b1ce9da14a38f8003c88c0d2a600bbd"
       },
       "32bit": {
-        "url": "https://github.com/navidrome/navidrome/releases/download/v0.55.1/navidrome_0.55.1_windows_386.zip",
-        "hash": "527c5ce3cc6c3d1b0722d1c5ca0a76580afe846a42a1ba7c5355b613376c29bd"
+        "url": "https://github.com/navidrome/navidrome/releases/download/v0.55.2/navidrome_0.55.2_windows_386.zip",
+        "hash": "a1c4233291815cf71c641b0bf6c1f733cb2510f96f61c1f4f706404c9363088f"
       }
     },
     "bin": "navidrome.exe",
@@ -26919,7 +26919,7 @@
     }
   },
   "Main/nunit-console": {
-    "version": "3.19.2",
+    "version": "3.20.0",
     "description": "NUnit Console runner for NUnit, the most popular and widely used unit testing framework for .NET",
     "homepage": "https://nunit.org/",
     "license": "MIT",
@@ -26933,8 +26933,8 @@
         "nunit-extension-vs-project-loader"
       ]
     },
-    "url": "https://packages.chocolatey.org/nunit-console-runner.3.19.2.nupkg",
-    "hash": "d20f1d22aa0745cc2d532bccecd6d690821b5514807c5a08b2e64c8962b6cd97",
+    "url": "https://packages.chocolatey.org/nunit-console-runner.3.20.0.nupkg",
+    "hash": "9b206840bbfd658cf35eb7bf27d07e3414efe6a3d4b3888ed9db1bd9f6011586",
     "extract_dir": "tools",
     "post_install": "New-Item -Path \"$dir\\nunit.scoop.addins\" -ItemType File -Value '../../nunit-extension-*/current/     # find extensions installed under scoop' | Out-Null",
     "bin": "nunit3-console.exe",
@@ -36516,12 +36516,12 @@
     }
   },
   "Extras/balabolka": {
-    "version": "2.15.0.891",
+    "version": "2.15.0.892",
     "description": "Text-To-Speech software based on SAPI",
     "homepage": "http://balabolka.site/balabolka.htm",
     "license": "Freeware",
     "url": "http://balabolka.site/balabolka_portable.zip",
-    "hash": "24bee820219251086f2c76d047f7d9df843be7ea29fc11999a03f3bd140701b3",
+    "hash": "c304f47d9550fd9e3c182932ca3f26e25308525e5bf8f679ffd9b09e4fd1cc8e",
     "extract_dir": "Balabolka",
     "post_install": "Get-ChildItem \"$persist_dir\\*\" -Include 'balabolka.dat', 'balabolka.pcfg', 'balabolka.echo' -Force | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue",
     "uninstaller": {
@@ -48487,12 +48487,12 @@
     }
   },
   "Extras/eraser": {
-    "version": "6.2.0.2994",
+    "version": "6.2.0.2996",
     "description": "Remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns",
     "homepage": "https://eraser.heidi.ie/",
     "license": "GPL-3.0-or-later",
-    "url": "https://sourceforge.net/project/eraser/Eraser%206/6.2/Eraser%206.2.0.2994.exe#/dl.7z",
-    "hash": "sha1:6647141adf7f2742b33741d2d07d12d07e55edbc",
+    "url": "https://sourceforge.net/project/eraser/Eraser%206/6.2/Eraser%206.2.0.2996.exe#/dl.7z",
+    "hash": "sha1:03028ce564f2b42b2a33320a91593d1e9672d925",
     "extract_to": "_EXTRACTED",
     "architecture": {
       "64bit": {
@@ -53820,15 +53820,15 @@
     }
   },
   "Extras/geogebra": {
-    "version": "6.0.879.0",
+    "version": "6.0.881.2",
     "description": "A dynamic mathematics software for education that brings together geometry, algebra, spreadsheets, graphing, statistics and calculus.",
     "homepage": "https://www.geogebra.org/",
     "license": {
       "identifier": "Freeware",
       "url": "https://www.geogebra.org/license"
     },
-    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Portable-6-0-879-0.zip",
-    "hash": "b15f9218ec36a5dde59df3f1e14adf42da38ea093f87125f1f892bedf761eb45",
+    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Portable-6-0-881-2.zip",
+    "hash": "7048c8dc53f2c25a9fce9d1fb1fc24f0b1c2bd35e07ec914e30d11e46cb450fa",
     "bin": [
       [
         "GeoGebra.exe",
@@ -54210,14 +54210,14 @@
     }
   },
   "Extras/gisto": {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Cross-platform gist snippets management desktop application to share code snippets fast and easily",
     "homepage": "https://gisto.org/",
     "license": "MIT",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Gisto/Gisto/releases/download/v2.1.0/Gisto_2.1.0_x64_en-US.msi",
-        "hash": "b55b190c5ae0e7bd0e3040254480a562b2d992674fc8c9f4b9b803244a402a90"
+        "url": "https://github.com/Gisto/Gisto/releases/download/v2.1.1/Gisto_2.1.1_x64_en-US.msi",
+        "hash": "545138d4d7f745ffd215b93009a2489aeba3bb215ce3ddf33eec305250f1c8cd"
       }
     },
     "extract_dir": "PFiles\\Gisto",
@@ -55254,22 +55254,22 @@
     }
   },
   "Extras/goofcord": {
-    "version": "1.8.5",
+    "version": "1.8.6",
     "description": "A privacy minded and highly configurable Discord client",
     "homepage": "https://github.com/Milkshiift/GoofCord",
     "license": "OSL-3.0",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.5/GoofCord-1.8.5-win-x64.zip",
-        "hash": "e7be843bb29d48468ce48ae4bfdce88827548e05c1fa72a5c459ffe55dc1f11a"
+        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.6/GoofCord-1.8.6-win-x64.zip",
+        "hash": "3b91742dd8686ac9d9c09475f095d5f2e9b256f0f0509540fd4102cb3f257303"
       },
       "32bit": {
-        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.5/GoofCord-1.8.5-win-ia32.zip",
-        "hash": "dfc21e3679fccd2ea1e1d747136424bf64f94f93c1b69c350b56c014776da08c"
+        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.6/GoofCord-1.8.6-win-ia32.zip",
+        "hash": "2405d0b6fd879f1f98617c618fe31d05dac0e7bddbe0a1527443ccaf6cf5bb5a"
       },
       "arm64": {
-        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.5/GoofCord-1.8.5-win-arm64.zip",
-        "hash": "54bd2eca9089390899a7d34242aee7a0ea9bf4cf120d053f7c2608e41a5bc9a3"
+        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.6/GoofCord-1.8.6-win-arm64.zip",
+        "hash": "e291cba1df95ae03cbf2d013ed1230ebbd74ac162510becd494612439dd85747"
       }
     },
     "shortcuts": [
@@ -60184,12 +60184,12 @@
     }
   },
   "Extras/jackett": {
-    "version": "0.22.1726",
+    "version": "0.22.1730",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/Jackett/Jackett",
     "license": "GPL-2.0-or-later",
-    "url": "https://github.com/Jackett/Jackett/releases/download/v0.22.1726/Jackett.Binaries.Windows.zip",
-    "hash": "6855b60816a1250f1907e5149664cc679c0995de52c504162c2484e2fa682295",
+    "url": "https://github.com/Jackett/Jackett/releases/download/v0.22.1730/Jackett.Binaries.Windows.zip",
+    "hash": "965c1d0eb0642e56595ce33fa281d975baffbb5ab9c682107be5ec79df8af692",
     "extract_dir": "Jackett",
     "pre_uninstall": [
       "'JacketTray', 'JacketConsole', 'JacketService' | ForEach-Object {",
@@ -60594,7 +60594,7 @@
     }
   },
   "Extras/jellyfin": {
-    "version": "10.10.6",
+    "version": "10.10.7",
     "description": "Software Media System",
     "homepage": "https://jellyfin.org",
     "license": "GPL-2.0-only",
@@ -60604,12 +60604,12 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://repo.jellyfin.org/files/server/windows/latest-stable/amd64/jellyfin_10.10.6-amd64.zip",
-        "hash": "md5:794393f0eea751b4875789688996f086"
+        "url": "https://repo.jellyfin.org/files/server/windows/latest-stable/amd64/jellyfin_10.10.7-amd64.zip",
+        "hash": "md5:a1c8bb07c0881e0e1c26c4296ba6d842"
       },
       "arm64": {
-        "url": "https://repo.jellyfin.org/files/server/windows/latest-stable/arm64/jellyfin_10.10.6-arm64.zip",
-        "hash": "md5:a7721d8e035461440e7b50f1d86c3509"
+        "url": "https://repo.jellyfin.org/files/server/windows/latest-stable/arm64/jellyfin_10.10.7-arm64.zip",
+        "hash": "md5:cc9bfcd876735b60cf08a8802ddb4f1d"
       }
     },
     "extract_dir": "jellyfin",
@@ -62922,15 +62922,15 @@
     }
   },
   "Extras/koboldcpp": {
-    "version": "1.87.2",
+    "version": "1.87.4",
     "description": "A simple one-file way to run various GGML models like LLAMA, ALPACA, VICUNA",
     "homepage": "https://github.com/LostRuins/koboldcpp",
     "license": "AGPL-3.0",
     "notes": "Look Mobel *.bin weights at https://rentry.org/nur779",
     "architecture": {
       "64bit": {
-        "url": "https://github.com/LostRuins/koboldcpp/releases/download/v1.87.2/koboldcpp.exe",
-        "hash": "12618a6fb1462c54f7ec8303da67a7248bc91b596485355fca89fe6090155c84"
+        "url": "https://github.com/LostRuins/koboldcpp/releases/download/v1.87.4/koboldcpp.exe",
+        "hash": "bc2c3815ba708877f2e92ba6f24659c025973d185676eb61654fd2fadfa59ab3"
       }
     },
     "bin": "koboldcpp.exe",
